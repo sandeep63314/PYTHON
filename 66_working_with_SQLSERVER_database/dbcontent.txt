@@ -1,0 +1,8 @@
+1,Executive General and Administration
+2,Inventory Management
+3,Manufacturing
+4,Quality Assurance
+5,Research and Develop
+6,Sales and Marketing
+7,ture and Utilities
+8,Infrastructure and Utilities

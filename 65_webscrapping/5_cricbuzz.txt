@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <script>var is_mobile = /symbian|tizen|midp|uc(web|browser)|MSIE (5.0|6.0|7.0|8.0)|tablet/i.test(navigator.userAgent);	if(is_mobile && window.location.hostname != "www1.cricbuzz.com") window.location.hostname = "m.cricbuzz.com";</script>
+      <style>body{background:#E3E6E3; font-family: helvetica,"Segoe UI",Arial,sans-serif;color:#222;font-size:14px; line-height: 1.5; margin:0;}	body, .cb-comm-pg, .cb-hm-mid {min-height:1000px}	.container{width:980px;margin:0 auto;}	.page{max-width: 980px;margin: 0 auto;position: relative;}	.cb-col-8 {width:8%;}	.cb-col-10 {width:10%;}	.cb-col-14 {width:14%;}	.cb-col-16 {width:16%;}	.cb-col-20 {width:20%;}	.cb-col-25 {width:25%;}	.cb-col-27 {width:27%;}	.cb-col-33 {width:33%;}	.cb-col-40 {width:40%;}	.cb-col-46 {width:46%;}	.cb-col-47 {width:47%;}	.cb-col-50 {width:50%;}	.cb-col-60 {width:60%;}	.cb-col-66 {width:66%;}	.cb-col-67 {width:67%;}	.cb-col-73 {width:73%;}	.cb-col-75 {width:75%;}	.cb-col-84 {width:84%;}	.cb-col-80 {width:80%;}	.cb-col-90{width:90%;}	.cb-col-100 {width:100%;}	.cb-col {display: inline-block;box-sizing: border-box;float: left; min-height: 1px;}	h1 {font-size: 36px;line-height: 42px; margin:0;}	h2 {font-size: 24px; margin:0; line-height: 30px;}	h3 {font-size: 18px;line-height: 24px; margin:0; }	h4 {font-size: 16px; margin:0; }	h5 {font-size: 14px; margin: 0;}	.cb-font-18 {font-size:18px;}	img{border-radius: 4px;}	a {text-decoration: none; color:#222;}	a, a:hover, a:active, a:focus {outline: medium none;}	.text-center {text-align: center;}	.cb-nws-lft-col{padding:15px 20px;}	.cb-nws-dtl-lft-col {padding: 10px 30px 0 30px;border-right: 1px solid #ecebeb ;}	.cb-nws-lst-rt{padding-left: 10px;}	.cb-srs-lst-itm {padding: 10px 0;}	.cb-lst-itm-sm{padding:10px 0 5px;}	.cb-scrd-lft-col{padding:15px 10px;} .cb-col-rt{padding: 10px;}	.text-white{color: #fff;}	.cb-scrd-hdr-rw, .cb-nav-pill-1.active {background: #028062 ;color: #fff;}	.cb-nav{position:relative; height:48px;background: #009270;}	.cb-hm-mnu-itm{padding: 16px 6px 11px; color:#fff; display:inline-block;}	.cb-hm-text{padding:10px 18px 10px 20px;}	.cb-hm-rght{padding: 15px;}	.cb-subnav .cb-sub-navigation {display: none; position: absolute;}	.cb-mat-mnu{background:#4a4a4a; width:980px; font-size: 0;}	.cb-mat-mnu-itm{font-size:12px; color:#fff; padding:10px; cursor: pointer; display:inline-block; max-width: 140px;}	.cb-mat-mnu-ttl{background: #333; padding: 10px 20px;}	.cb-mat-mnu-wrp{margin-bottom: 10px;}	.cb-ovr-flo{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}	.cb-mat-mnu-all{text-align: center; float: right; width:60px;}	.cb-nav-main{border-bottom:1px solid #e3e6e3;padding:0 0 5px 20px;}	.cb-nav-bar{padding-top:10px;clear:both;}	.cb-lst-itm, .cb-bg-white{background: #fff;}	.cb-nav-tab.active, .cb-nav-tab-hm.active{ font-weight: bold; color: #028062;}	.cb-nav-tab.active {border-bottom: 3px solid #028062; line-height: 24px; }	.cb-nav-tab-hm.active{ border-bottom:2px solid #028062; line-height: 22px;}	.cb-nav-tab{margin-right:20px;padding-bottom:6px;}	.cb-nav-tab-hm{margin-right:15px;padding-bottom:6px;}	.cb-nav-hdr{padding-top:15px}	.cb-nav-subhdr{padding:5px 0 10px 0;}	.cb-lv-scr-mtch-hdr{line-height: 21px;font-size: 16px;}	.disp-none{display:none;}	.disp-blck{display:block;}	.cb-font-24{font-size: 24px;}	.line-ht30{line-height: 30px;}	.line-ht24{line-height: 24px;}	.cb-hm-scg-blk{background: #fff; margin-bottom: 5px; height:90px;}	.mrgn-btm-5{margin-bottom : 5px;}	#scagTabContent .show{display: block; visibility: visible;}	#scagTabContent .hide{display: none; visibility: hidden;}	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none !important;}	.cb-hm-lft{margin-bottom:5px;padding:0 15px;}	.cb-hm-lft-hdr{margin:0; padding:15px 15px 0; color: #009270;} .cb-hm-mid {border-left: 5px solid #e3e6e3 ;border-right: 5px solid #e3e6e3 ;padding: 0 15px;} .cb-mtch-blk {border-right: 1px solid #ecebeb ;line-height: 1.4;margin: 15px 0;padding: 0 20px;}	.crd-cntxt{font-size: 12px; color:#666; padding-bottom: 10px;}	.big-crd-main{border-top: 1px solid #ecebeb;padding:15px 0 5px; margin-bottom: 1px;clear: both;} .big-crd-reltd-itm {margin: 0 0 10px; width:100%; display: inline-block;}	.cb-nws-time{font-size:12px; padding-bottom: 5px;}	.cb-nws-hdln-ancr{padding-bottom: 5px;}	.cb-hmscg-bwl-txt, .cb-hmscg-bat-txt{font-weight:bold; padding-bottom:4px; height:18px;}	.cb-hmscg-bwl-txt{color:#666;}	.sml-crd-main{padding: 15px 0 5px; width: 100%;}	.big-crd-hdln{margin: 10px 0;}	.big-crd-rltd-txt {font-weight: bold; margin:10px 0; color:#1866DB;} .cb-nws-intr {color: #666;padding-bottom: 5px;} .cb-lv-scrs-well {background: #f5f5f5 ;display: inline-block;margin: 10px 0;padding: 10px 5px;}	.cb-hm-mtch-crd-width{min-width:300px;}	.cb-mr-30{margin-right: 30px;}	.cb-pretag{color:#B34A57;} .cb-schdl-hdr {margin: 0;padding: 15px 0 10px 10px;} .cb-lst-itm-lg {padding: 20px 0;} .cb-left-pad {padding: 20px 10px 0;}	.cb-nav-pill-1 {background: #CFE0DB;border-radius: 20px;color: #222;cursor: pointer;margin-right: 15px;padding: 5px 20px;} .cb-mtch-lst {padding: 15px 0;}	.cb-nws-min-cntr{padding: 10px; background: #f5f5f5; color:#333; margin:10px 0 15px;}	.sml-crd-subtxt{margin:0 10px 10px;}	/*-------------------------Live Pages -----------------------*/	.cb-scrcrd-status{padding:0 0 10px 10px;}	.cb-scrd-hdr-rw{padding:8px 10px;}	.cb-bg-gray{background: #ecebeb;}	.cb-lv-grn-strip{background: #ecebeb;}	.cb-min-hdr-rw, .cb-scrd-sub-hdr{padding: 4px 10px; font-size: 12px; color: #666;}	.cb-scrd-itms{padding: 4px 10px; font-size: 13px;}	.cb-text-link {color: #1866DB;}	.text-bold{font-weight: bold;}	.text-normal{font-weight: normal;}	.cb-mat-fct-itm{padding: 5px 0;}	.cb-min-bat-rw{padding-bottom: 5px;}	.cb-nws-sub-txt, .cb-nws-sub-txt, .cb-font-12{font-size:12px;}	.cb-font-16{font-size:16px;}	.cb-font-20{font-size:20px;}	.cb-min-inf{padding-top:10px; margin-left: -10px; display: inline-block;}	.cb-min-itm-rw{padding:5px 10px 0;}	.text-right{text-align:right;}	.cb-key-st-lst{padding: 10px 0 0 5px; }	.cb-min-prw-time{padding:20px 0 0;}	.cb-toss-sts{padding: 10px 0 30px;}	.cb-min-rcnt{padding: 7px 10px; margin: 0 -10px 0;}	.cb-key-lst-wrp{border: 1px solid #ecebeb; padding-bottom: 15px; margin-right: -10px;}	.cb-min-tm{font-size: 18px; font-weight: bold;}	.cb-min-stts{padding: 20px 0;}	.cb-mom-itm{padding: 0 0 10px;}	.cb-lv-grn-strip {padding: 10px 10px 5px;}	.cb-ovr-num{padding-top:2px;}	.cb-min-pad{padding-left: 5px;}	/*Upcoming Series*/	.cb-mnth{margin-top: 10px; padding: 0 10px;}	.cb-sch-lst-itm {padding:10px 0; margin-left: 20px;border-bottom: 1px solid #ecebeb;}	/*Matches By Day*/	.cb-mtchs-dy{padding:20px 20px 20px 10px ;}	.cb-mtchs-dy-tm,.cb-mtchs-dy-vnu{padding:20px 20px 20px 0px;}	/*Schedule Teams*/	.cb-lv-upcom-strip{padding: 5px 10px;background: #ecebeb;}	/*Archives*/	.cb-srs-cat{padding:10px; color:#028062; }	.pad-left{padding-left:30px;}	.cb-arcv-yr{font-size:20px; padding: 0 0 5px 10px;font-weight: bold}	.cb-yr-tmline{padding: 2px 15px 15px 0;}	.cb-sch-tms-widgt{padding: 5px 10px; margin:5px 2px 2px 2px; background: #f5f5f5; border-radius: 0; border:0; display: inline-block;}	/*Photos*/	.cb-thmb-dark {background: #333333; box-shadow:none; border-radius:4px; border:none; padding:0;color:#CCC;}	.cb-pht-main {padding:20px 15px;margin: 0 -10px;}	.cb-pht-block{padding:9px;float:left;height:280px;box-sizing: border-box;} .cb-gallery-pht-block{padding: 9px 9px 9px 16px;}	.img-responsive{height:auto; max-width:100%;}	.center-block{margin-right: auto;margin-left: auto;}	.cb-schdl{padding:0 10px;line-height: 1.5;}	.cb-caret-up, .cb-caret-down{display: inline-block; width: 0; height: 0; margin-left: 4px; margin-bottom: 1px; border-right: 4px solid transparent; border-left: 4px solid transparent;}	.cb-caret-up{border-bottom: 4px solid;}	.cb-caret-down{border-top: 4px solid;}	.cb-hm-rt-itm{margin: 0 0 5px; padding: 10px 10px 5px;}	.cb-hmscg-tm-nm{display:inline-block; width: 60px;}	.pull-right,.cb-all-mtch-tab{float:right;}	.cb-skin-ads-close{display: none;}	.cb-nws-sub-txt{padding-top:10px;}	.nws-dtl-hdln{margin-top:10px;}	.cb-min-lv{min-height:270px}	.cb-min-comp{min-height:150px;}	.cb-ttl-vts{margin-top:20px;}	.cb-poll-radio{width: 5%;margin:4px 10px 0 0;}	.cb-mini-tim{padding-bottom:20px;}	.cb-com-ln{margin: 0 0 10px; line-height: 24px;}	.cb-comm-static{min-height:31px; margin: 0 -10px 10px;}	.cb-com-ovr-sum-ad{min-height: 31px;}	.cb-comm-static-anchr{margin:5px 10px; display: block;}	.ad-unit-rendered{margin-bottom: 5px;}	.cb-mm-wrp { max-height: 0px; -webkit-transition: max-height 0.35s ease; transition: max-height 0.35s ease; overflow: hidden; }	.cb-mm-wrp.down { max-height: 1000px; transition: max-height 0.75s ease; -webkit-transition: max-height 0.75s ease; overflow: hidden;} .cb-srs-hstry-dtl {padding:10px 15px;margin-top:20px; border-radius: 4px;}	.cb-qck-lnk{margin-bottom: 5px; padding:10px 15px;}	.cb-qck-hdr{padding-right: 15px; border-right: 1px solid #ecebeb ;}	.cb-qck-ancr{margin-left: 15px;}	.cb-lst-vid-rw{padding-bottom: 0; height: 64px; border: 1px solid #ecebeb; margin-right: -10px;}	.cb-auth-img{border-radius: 100%;}	.cb-expt-athr{vertical-align: top; padding: 5px 0 0 0; display: inline-block; font-size: 16px}	.inline-block{display: inline-block;}	.cb-exprt-athr-hdr{text-align: right;font-size: 42px;font-family: bodani; color: #fff;padding-right: 15px;line-height:44px;text-transform:uppercase;}	.cb-exprt-athr-hdr-tag{text-align: right;font-size: 24px;font-family: bodani; color: #fff;padding-right: 15px;font-style:italic;}	.cb-athr-wgt-wrp{border:1px solid #ecebeb; padding:15px; margin-bottom:20px;background:#f5f5f5;}	.cb-exprt-athr-hdr-img{background: url("/images/harsha-banner.jpg") no-repeat scroll; height:80px;}	.cb-overflow-hidden{overflow: hidden;}	/*Videos*/	.cb-vid-sm-ply-api {color: #fff;line-height: 34px;font-size: 18px;margin-left: 3px;}	.cb-vid-sml-card-api {margin-top: 10px;height: auto;padding: 0 12px 0 11px;}	.cb-cat-head-wrap {padding: 0 12px 0 11px;}	.cb-cat-head-text {margin-top: 5px;line-height: 20px;}	.cb-more-btn {padding: 8px 20px;border-radius: 2px;color: #fff;background: #009270;border: 0;cursor: pointer;}	.cb-cat-head-link {float: right;padding: 5px 25px;margin-top: 10px;border-radius: 4px;}	.cb-pos-rel{position: relative;}	.cb-videos-cat {border-bottom: 1px solid #ecebeb;padding: 10px 3px 15px 4px;}	.cb-cat-head-text-wrap {float: left;}	.cb-cat-head-count {margin: 0;color: #666;}	h2.cb-cat-head-text{font-size : 18px}	.cb-vid-sml-card-api-head {font-size: 14px;font-weight: bold;line-height: 18px;max-height: 55px;margin: 2px 0 5px;overflow: hidden;}	.cb-cen {position: absolute;top: 50%;left: 50%;opacity: .8;transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%);-o-transform: translateX(-50%) translateY(-50%);background: #222;text-align: center;height: 35px;width: 35px;border-radius: 50px;}	.cb-cen:hover{opacity: 1;}	.padding-handling-errors{padding: 20px 0px 10px 15px;border-bottom: 1px solid #ecebeb;}	.cb-col .cb-align-cen{float: none; text-align: center; padding: 7px 25px; margin-top: 20px;}	.cb-align-cen{padding-top: 10px;}	.cb-hot-cat{max-width: 90px; text-align: center; padding-right: 0;}	.cb-hot-cat-img{width: 72px;}	.cb-vid-slider-arrs{position: absolute; top: 52px; left: 0; right: 0; z-index: 5;}	.cb-vid-slider-arr{position: absolute; z-index: 5; height: 43px; width: 43px; border-radius: 50%; cursor: pointer;}	.cb-vid-slider-arr-prev{display: none; left: 0;}	.cb-vid-slider-arr-next{right: 0;}	.videos-list-carousal{overflow: hidden; position: relative; height: 220px;}	.videos-carousal-wrapper{float: none; list-style: none; padding: 0; margin: 0; transition: all 0.3s ease; display: flex; flex-direction: row; position: absolute; left: 0;}	.videos-carousal-item{min-width: 25%; justify-content: center; align-items: center;}	.cb-vid-more{float: right; color: #2C3E9A; font-size: 18px;}	.cb-vid-more:hover{text-decoration: underline;}	.cat-vid-carousal{height: 135px !important;}	.cat-vid-carousal .videos-carousal-item{min-width: auto;}	.cat-vid-carousal .cb-vid-slider-arrs{top: 24px;}	.cb-srs-sqd-box{min-height: 700px; background: #fff;}	.cb-float-none{float: none;}	.cb-margin-top-10{margin-top: 10px;}	.cb-schdl-nvtb {margin: 0 0 10px 0;padding: 10px;}	.cb-carousal-item-small {padding: 0 0 0 16px;}	.cb-carousal-item-small:first-child {padding-left: 11px;}	.cb-carousal-item-large {padding: 0 11px;}	.cb-carousal-item-small .cb-vid-txt-wrp{font-size: 12px;}	.cb-hot-cat .cb-vid-txt-wrp{display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; max-height: 40px;}	.cb-more-video{float:right;color: #2C3E9A;}	.cb-more-video:hover{text-decoration: underline;}	.home_video .cb-vid-slider-arrs{opacity: 0.8;}	.home_matches .cb-vid-slider-arrs{opacity: 0.8;top: 22px;}	#hm-scag-mtch-blk ul li:not(:first-of-type) {padding: 0 11px 0 20px;}	/*Rankings*/	.cb-ranking-nav.active{line-height: 21px}	.cb-rank-plyr{padding-left:15px}	.text-left{text-align:left;}	.cb-rank-tabs{padding-left: 10px;}	.cb-plyr-tbody{padding:5px 0;}	.cb-padding-left0{padding-left: 0;}	.cb-rank-hdr{margin-top: 15px; padding: 5px 0;}	.cb-bg-grey{background: #f5f5f5;}	/*Players*/	.cb-player-name-wrap{padding-top: 90px;}	.cb-plyr-tbl{margin-top: 30px}	.cb-font-40{font-size:40px;}	/*Teams*/	.cb-cursor-pointer{cursor: pointer;}	.cb-team-stats-btn{margin-top: 21px;}	.cb-upper-text{text-transform: capitalize;}</style>
+      <script>function getCookie(c_name){	var i,x,y,ARRcookies=document.cookie.split(";");	for (i=0;i<ARRcookies.length;i++){	x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));	y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);	x=x.replace(/^\s+|\s+$/g,"");	if (x==c_name){	return unescape(y);	}	}	}	var cbads_value = getCookie("cbzads");	if(cbads_value != null && cbads_value.indexOf('IN|') >= 0){	document.write("<style>.cb-geo-in-50{height:50px}</style>")	}	/*polifill for remove function*/	if (!('remove' in Element.prototype)) {	Element.prototype['remove'] = function () {	if (this.parentNode) {	this.parentNode.removeChild(this);	}	};	}</script>
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <link href="/images/cric_ball.ico" rel="shortcut icon" type="image/x-icon"/>
+      <meta content="125255339112-d594jen12o0j854sufu8jfn2gbbnaskj.apps.googleusercontent.com" name="google-signin-client_id"/>
+      <link href="/images/apple-touch-icon.png" rel="apple-touch-icon"/>
+      <title itemprop="name">Cricket Score, Schedule, Latest News, Stats &amp; Videos | Cricbuzz.com</title>
+      <meta content="Get Live Cricket Score, Scorecard, Schedules of International and Domestic cricket matches along with Latest News, Videos and ICC Cricket Rankings of Players on Cricbuzz." itemprop="description" name="description"/>
+      <link href="android-app://com.cricbuzz.android/http/www.cricbuzz.com/" rel="alternate"/>
+      <link href="//m.cricbuzz.com/" media="only screen and (max-width: 640px)" rel="alternate"/>
+      <meta content="index, follow" name="robots"/>
+      <meta content="index, follow" name="googlebot"/>
+      <meta content="google89fd37b1258ef4b9.html" name="google-site-verification"/>
+      <meta content="A509FA8BAE50018F9DF2553AEDEDF77B" name="msvalidate.01"/>
+      <meta content="Cricket Score, Schedule, Latest News, Stats &amp;amp; Videos" property="og:title"/>
+      <meta content="Get Live Cricket Score, Scorecard, Schedules of International and Domestic cricket matches along with Latest News, Videos and ICC Cricket Rankings of Players on Cricbuzz." property="og:description"/>
+      <meta content="30119633160" property="fb:app_id"/>
+      <meta content="Cricbuzz" property="og:site_name"/>
+      <meta content="Cricket Score, Schedule, Latest News, Stats &amp;amp; Videos" property="twitter:title"/>
+      <meta content="Get Live Cricket Score, Scorecard, Schedules of International and Domestic cricket matches along with Latest News, Videos and ICC Cricket Rankings of Players on Cricbuzz." property="twitter:description"/>
+      <meta content="@cricbuzz" name="twitter:site"/>
+      <meta content="cricbuzz.com" name="twitter:domain"/>
+      <meta content="Cricbuzz" name="twitter:app:name:iphone"/>
+      <meta content="360466413" name="twitter:app:id:iphone"/>
+      <meta content="Cricbuzz" name="twitter:app:name:googleplay"/>
+      <meta content="com.cricbuzz.android" name="twitter:app:id:googleplay"/>
+      <meta content="on" name="twitter:widgets:csp"/>
+      <meta content="178697151159" property="fb:pages">
+      <meta content="" name="keywords"/>
+      <meta content="" name="news_keywords"/>
+      <link href="https://www.cricbuzz.com/" rel="canonical"/>
+      <meta content="none" name="msapplication-config">
+      <script>var PAGE_NAME = "cb-homepage";	var PAGE_TARGETS = {};	var CBQueue = CBQueue || [];	var CBQueueOnLoad = CBQueueOnLoad || [];	/*CBQueue.push(function(){roadblock(2,{country:["US","CA", "ZA", "AU"], continent:["EU"]});});	CBQueue.push(function(){roadblock(2,{country:["US"]});});*/	_udn = "cricbuzz.com";</script><script>(function(w){	"use strict";	var loadCSS = function( href, before, media ){	var doc = w.document;	var ss = doc.createElement( "link" );	var ref;	if( before ){	ref = before;	}	else {	var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;	ref = refs[ refs.length - 1];	}	var sheets = doc.styleSheets;	ss.rel = "stylesheet";	ss.href = href;	ss.media = "only x";	ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );	var onloadcssdefined = function( cb ){	var resolvedHref = ss.href;	var i = sheets.length;	while( i-- ){	if( sheets[ i ].href === resolvedHref ){	return cb();	}	}	setTimeout(function() {	onloadcssdefined( cb );	});	};	ss.onloadcssdefined = onloadcssdefined;	onloadcssdefined(function() {	ss.media = media || "all";	});	return ss;	};	if( typeof module !== "undefined" ){	module.exports = loadCSS;	}	else {	w.loadCSS = loadCSS;	}	}( typeof global !== "undefined" ? global : this ));	loadCSS( "/dist/css/cricbuzz.min.1606460309.css" );</script>
+      <noscript>
+         <link href="/dist/css/cricbuzz.min.1606460309.css" rel="stylesheet" type="text/css"/>
+      </noscript>
+      </meta></meta></meta>
+   </head>
+   <body>
+      <a href="https://plus.google.com/104502282508811467249" rel="publisher"></a><a class="cb-skin-ads-link cb-skin-ads-link-fixed ad-skin" href="Javascript:void(0)" id="ad-skin" target="_blank"></a><a class="cb-skin-ads-close cb-font-12 ad-skin-close" href="Javascript:void(0)" style="position:fixed; z-index:1001; color:#FFF; background:#000; padding:2px 5px; right:2px;">✖</a>
+      <header id="top" itemscope="" itemtype="http://schema.org/WPHeader" style="z-index: 1000;position: relative;padding-top:10px;width:980px;margin:0 auto;">
+         <div class="container">
+            <div class="ad-unit text-center center-block" id="leaderboard" style="min-height:90px;margin-bottom:10px;"></div>
+            <div class="ad-unit" id="countdown" style="margin:-10px 15px 0px;float:right;position:absolute;"></div>
+            <div class="toi-branding toi-referral"></div>
+            <nav class="cb-nav cb-col cb-col-100" id="cb-main-menu">
+               <a class="cb-hm-text" href="/" target="_self"><img alt="Cricbuzz Logo" height="30" itemprop="image" src="/images/cbz-logo.png" style="bottom: -4px; position: relative;" title="Cricbuzz Logo" width="101"/></a><a class="cb-hm-mnu-itm" href="/cricket-match/live-scores" target="_self" title="Live Cricket Score">Live Scores</a><a class="cb-hm-mnu-itm" href="/cricket-schedule/upcoming-series/international" target="_self" title="Cricket Schedule">Schedule</a><a class="cb-hm-mnu-itm" href="/cricket-scorecard-archives" target="_self" title="Cricket Scorecard Archives">Archives</a>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="newsDropDown" title="Cricket News">
+                  <a class="text-white" href="/cricket-news" target="_self">News</a><span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation"><a class="cb-subnav-item" href="/cricket-news" target="_self" title="Latest Cricket News">All Stories</a><a class="cb-subnav-item" href="/cricket-news/latest-news" target="_self" title="Latest Cricket News">Latest News</a><a class="cb-subnav-item" href="/cricket-news/info/" target="_self" title="Latest Cricket Topics">Topics</a><a class="cb-subnav-item" href="/cricket-news/editorial/spotlight" target="_self" title="Cricket Editorials and Specials">Spotlight</a><a class="cb-subnav-item" href="/cricket-news/editorial/editorial-list" target="_self" title="Latest Cricket Opinions &amp; Editorials">Opinions</a><a class="cb-subnav-item" href="/cricket-news/editorial/specials" target="_self" title="Latest Cricket Specials">Specials</a><a class="cb-subnav-item" href="/cricket-news/editorial/stats-analysis" target="_self" title="Latest Cricket Stats &amp; Analysis">Stats &amp; Analysis</a><a class="cb-subnav-item" href="/cricket-news/editorial/interviews" target="_self" title="Latest Cricket Player Interviews">Interviews</a><a class="cb-subnav-item" href="/cricket-news/editorial/live-blogs" target="_self" title="Latest Cricket Match live blogs">Live Blogs</a><a class="cb-subnav-item" href="/cricket-news/experts/harsha-bhogle/170" target="_self" title="Articles and Videos by Harsha Bhogle">Harsha Bhogle</a></nav>
+               </div>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="seriesDropDown" title="Cricket Series">
+                  <a class="text-white" href="/cricket-schedule/series" target="_self">Series</a><span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation"> <a class="cb-subnav-item" href="/cricket-series/3362/england-tour-of-india-2021" target="_self" title="England tour of India, 2021">England tour of India, 2021</a> <a class="cb-subnav-item" href="/cricket-series/3213/india-tour-of-australia-2020-21" target="_self" title="India tour of Australia, 2020-21">India tour of Australia, 2020-21</a> <a class="cb-subnav-item" href="/cricket-series/3353/south-africa-tour-of-pakistan-2021" target="_self" title="South Africa tour of Pakistan, 2021">South Africa tour of Pakistan, 2021</a> <a class="cb-subnav-item" href="/cricket-series/3367/west-indies-tour-of-bangladesh-2021" target="_self" title="West Indies tour of Bangladesh, 2021">West Indies tour of Bangladesh, 2021</a> <a class="cb-subnav-item" href="/cricket-series/3248/big-bash-league-2020-21" target="_self" title="Big Bash League 2020-21">Big Bash League 2020-21</a> <a class="cb-subnav-item" href="/cricket-series/3377/syed-mushtaq-ali-trophy-2021" target="_self" title="Syed Mushtaq Ali Trophy 2021">Syed Mushtaq Ali Trophy 2021</a> <a class="cb-subnav-item" href="/cricket-series/3403/t10-league-2021" target="_self" title="T10 League 2021">T10 League 2021</a> <a class="cb-text-link cb-subnav-item" href="/cricket-schedule/series" target="_self">All Series »</a></nav>
+               </div>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="teamDropDown" title="Cricket Teams">
+                  <a class="text-white" href="/cricket-team" target="_self">Teams</a><span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation cb-sub-lg">
+                     <div class="cb-sub-lg-outer">
+                        <div class="cb-sub-lg-sec">
+                           <h4 class="cb-sub-lg-sec-head">Test Teams</h4>
+                           <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/india/2" target="_self" title="India Cricket Team">India</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/ireland/27" target="_self" title="Ireland Cricket Team">Ireland</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/pakistan/3" target="_self" title="Pakistan Cricket Team">Pakistan</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/australia/4" target="_self" title="Australia Cricket Team">Australia</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/sri-lanka/5" target="_self" title="Sri Lanka Cricket Team">Sri Lanka</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/bangladesh/6" target="_self" title="Bangladesh Cricket Team">Bangladesh</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/england/9" target="_self" title="England Cricket Team">England</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/west-indies/10" target="_self" title="West Indies Cricket Team">West Indies</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/south-africa/11" target="_self" title="South Africa Cricket Team">South Africa</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/zimbabwe/12" target="_self" title="Zimbabwe Cricket Team">Zimbabwe</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/new-zealand/13" target="_self" title="New Zealand Cricket Team">New Zealand</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/afghanistan/96" target="_self" title="Afghanistan Cricket Team">Afghanistan</a>
+                        </div>
+                        <div class="cb-sub-lg-sec">
+                           <h4 class="cb-sub-lg-sec-head">Associate</h4>
+                           <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/iran/675" target="_self" title="Iran Cricket Team">Iran</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/italy/527" target="_self" title="Italy Cricket Team">Italy</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/botswana/529" target="_self" title="Botswana Cricket Team">Botswana</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/belgium/541" target="_self" title="Belgium Cricket Team">Belgium</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/denmark/185" target="_self" title="Denmark Cricket Team">Denmark</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/namibia/161" target="_self" title="Namibia Cricket Team">Namibia</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/singapore/190" target="_self" title="Singapore Cricket Team">Singapore</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/bermuda/25" target="_self" title="Bermuda Cricket Team">Bermuda</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/canada/26" target="_self" title="Canada Cricket Team">Canada</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/uganda/44" target="_self" title="Uganda Cricket Team">Uganda</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/malaysia/71" target="_self" title="Malaysia Cricket Team">Malaysia</a> <a class="cb-subnav-item cb-sub-lg-sec-item" href="/cricket-team/nepal/72" target="_self" title="Nepal Cricket Team">Nepal</a>
+                        </div>
+                     </div>
+                     <a class="cb-sub-lg-more" href="/cricket-team" target="_self">More...</a>
+                  </nav>
+               </div>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="videosDropDown" title="Cricket Videos">
+                  <a class="text-white" href="/cricket-videos" target="_self">Videos</a><span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation"> <a class="cb-subnav-item" href="/cricket-videos" target="_self" title="All Cricket Videos">All Videos</a> <a class="cb-subnav-item" href="/cricket-videos/categories" target="_self" title="Cricket Videos Categories">Categories</a> <a class="cb-subnav-item" href="/cricket-videos/playlists" target="_self" title="Cricket Videos Playlists">Playlists</a> </nav>
+               </div>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="rankingDropDown" title="ICC Rankings">
+                  <a class="text-white" href="/cricket-stats/icc-rankings/men/batting">Rankings</a><span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation"><a class="cb-subnav-item" href="/cricket-stats/icc-rankings/men/batting" target="_self" title="ICC Rankings Men">ICC Rankings - Men</a><a class="cb-subnav-item" href="/cricket-stats/icc-rankings/women/batting" target="_self" title="ICC Rankings Women">ICC Rankings - Women</a></nav>
+               </div>
+               <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer">
+                  More<span class="cb-caret-down"></span>
+                  <nav class="cb-sub-navigation" style="right:0px;"> <a class="cb-subnav-item" href="/cricket-quiz" target="_self" title="Cricket Quiz">Quiz</a> <a class="cb-subnav-item" href="/cricket-photo-gallery" target="_self" title="Photo Gallery">Photos</a> <a class="cb-subnav-item" href="/mobileapps" target="_self" title="Mobile Apps">Mobile Apps</a><a class="cb-subnav-item" href="/careers" target="_self" title="Careers">Careers</a><a class="cb-subnav-item" href="/info/contact" target="_self" title="Contact Us">Contact Us</a></nav>
+               </div>
+               <div ng-controller="SearchCtrl" ng-init=" init(-1, 61, 76, 350, '', 'nav')">
+                  <div class="cb-nav-search-wrap" ng-style="{width: inputFocus?'830px':'170px'}">
+                     <div class="cb-col-100 cb-col cb-srch-bar cb-srch-bar-nav">
+                        <form class="cb-search-form" name="form" ng-cloak="" ng-submit="search_results(false, false)">
+                           <div class="cb-search-input-nav">
+                              <div class="cb-search-outer">
+                                 <div class="cb-search-input-wrap"> <input autocomplete="off" class="js-cb-search-input cb-search-input-elem cb-search-input-elem-nav form-control cb-car-inp cb-srch-bg" id="search_bar" maxlength="500" name="search" ng-blur="loseInputFocus()" ng-change="suggest_search()" ng-class="{'cb-search-input-elem-error-nav':errorText, 'cb-srch-high-zIndex':dropdownVisible, 'cb-srch-input-focus':inputFocus}" ng-focus="onInputFocus()" ng-keydown="onKeyPress($event)" ng-model="searchText" ng-model-options="{ debounce: 400 }" placeholder="{{errorText?errorText:(source == 'nav' &amp;&amp; inputFocus) || source == 'search-page'?'Search for Player, Series, Team, News or Video. eg: Windies tour of India': 'Search'}}" type="text" value="suggest.title"/> <span class="cb-ico cb-search-input-icon cb-search-input-icon-nav"></span> <span class="cb-srch-cross-new cb-srch-cross-new-nav cb-font-14" ng-class="{'cb-srch-cross-focus': inputFocus, 'cb-srch-high-zIndex':dropdownVisible}" ng-click="reset_form('view');" ng-show="searchText.length &gt; 0">✖</span> </div>
+                                 <div class="cb-srch-backdrop" ng-click="hideDropdown()" ng-show="dropdownVisible"></div>
+                                 <div class="cb-main-srch-box-wrap" ng-show="dropdownVisible &amp;&amp; searchText.length &gt;= 2 &amp;&amp; search_ftr_suggst.length &gt; 0">
+                                    <ul class="cb-main-srch-box" id="searchBox_nav">
+                                       <li class="cb-main-srch-box-item {{selected_suggestions == $index?'highlight':''}}" id="search_item_{{$index}}" ng-class="{'cb-main-srch-box-item-border':suggest.hasBorder, 'cb-big': suggest.isSearchItem}" ng-click="search_results()" ng-mouseover="highlight_item_mouse_hover($index)" ng-repeat="suggest in search_ftr_suggst track by $index" ng-show="suggestions &amp;&amp; searchText.length &gt; 0 &amp;&amp; inputFocus">
+                                          <a class="text-black cb-srch-suggest-link" ng-if="!suggest.isSearchItem">
+                                             <div class="cb-srch-suggest-img" ng-class="{'cb-srch-suggest-img-teams': suggest.type == 'Teams'}">
+                                                <div class="" ng-if="suggest.imgUrl"> <img class="cb-srch-suggest-icon-img" ng-src="{{suggest.imgUrl}}"> </img></div>
+                                                <div class="cb-srch-sugggest-icon {{suggest.iconClass}} cb-ico" ng-if="!suggest.imgUrl"> </div>
+                                             </div>
+                                             <div class="cb-srch-suggest-content">
+                                                <p class="cb-srch-suggest-content-title" ng-bind-html="suggest | searchfilter:oldText"></p>
+                                                <p class="cb-srch-suggest-content-subtitle cb-font-12 cb-text-gray">{{suggest.tag}}</p>
+                                             </div>
+                                          </a>
+                                          <a class="text-black cb-srch-suggest-link" href="javascript:void(0)" ng-if="suggest.isSearchItem">
+                                             <div class="cb-srch-suggest-img">
+                                                <div class="cb-srch-sugggest-icon cb-srch-sugggest-icon-search cb-ico"> </div>
+                                             </div>
+                                             <div class="cb-srch-suggest-content cb-center-text">
+                                                <p class="cb-srch-suggest-content-title">Search for “<span ng-bind="searchText"></span>”</p>
+                                             </div>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cb-search-submit-nav" ng-class="{'cb-search-submit-input-focus': inputFocus, 'cb-search-submit-error': errorText}"> <a class="text-white cb-srch-bttn" ng-class="{'cb-srch-high-zIndex':dropdownVisible}" ng-click="search_results(false, true)">SEARCH</a> </div>
+                        </form>
+                     </div>
+                     <style>.cb-srch-ico{margin: 0}</style>
+                  </div>
+               </div>
+            </nav>
+            <style>.cb-text-link{color:#1866db;}</style>
+         </div>
+      </header>
+      <div class="page">
+         <div id="fb-root"></div>
+         <div class="container" id="page-wrapper" style="display:inline-block;">
+            <div class="ad-unit shosh-embed" id="shosh" style="height:0; width:980px; text-align:center;"></div>
+            <span class="ad-unit" id="skin_left" style="overflow:hidden; position:fixed;top:0;left:calc(50% - 635px);margin-right:3px;z-index:-99;"></span>
+            <div class="html-refresh" disable-first-load="true" timeout="300000" url="/api/html/matches-menu">
+               <div class="cb-col cb-col-100 mrgn-btm-5">
+                  <nav class="cb-mat-mnu" ng-init="direction='up'"><a class="cb-mat-mnu-itm cb-ovr-flo cb-mat-mnu-ttl" href="/cricket-match/live-scores" id="live-scores-link" target="_self" title="">MATCHES</a><a class="cb-mat-mnu-itm cb-ovr-flo" href="/live-cricket-scores/32253/ind-vs-eng-1st-test-england-tour-of-india-2021" target="_self" title="India v England, 1st Test - Live">IND vs ENG - Live</a><a class="cb-mat-mnu-itm cb-ovr-flo" href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test-south-africa-tour-of-pakistan-2021" target="_self" title="Pakistan v South Africa, 2nd Test - Tea">PAK vs RSA - Tea</a><a class="cb-mat-mnu-itm cb-ovr-flo" href="/live-cricket-scores/32312/ban-vs-wi-1st-test-west-indies-tour-of-bangladesh-2021" target="_self" title="Bangladesh v West Indies, 1st Test - Stumps">BAN vs WI - Stumps</a><a class="cb-mat-mnu-itm cb-ovr-flo" href="/live-cricket-scores/31009/cd-vs-can-28th-match-super-smash-2020-21" target="_self" title="Central Districts v Canterbury, 28th Match - Complete">CD vs CAN - Complete</a><a class="cb-mat-mnu-itm cb-ovr-flo" href="/live-cricket-scores/33818/dol-vs-lions-final-rescheduled-match-momentum-one-day-cup-2021" target="_self" title="Dolphins v Lions, Final (Rescheduled match) - Live">DOL vs LIONS - Live</a><span ng-click="(direction=='up')?direction = 'down' : direction = 'up'"><a class="cb-mat-mnu-itm cb-mat-mnu-all" id="match-dropdown" ng-class="{true:'cb-mat-mnu-cls'}[direction=='down']"><span ng-bind="(direction=='up') ? 'ALL': 'CLOSE'"></span><span ng-class="(direction=='up') ? 'cb-caret-down' : 'cb-caret-up'"></span></a></span></nav>
+                  <div id="matchmenu">
+                     <div class="cb-mm-wrp {{direction}}">
+                        <div class="cb-scg-drp-dwn cb-col cb-col-100 cb-mnu-{{direction}}">
+                           <nav class="nav cb-mm-nvtb" ng-init="option= 'all'"><a class="cb-nav-pill-2 {{(option=='all')?'active':''}}" ng-click="option='all'" style="margin-right: 20px;">All</a><a class="cb-nav-pill-2 {{(option=='live')?'active':''}}" ng-click="option='live'" style="margin-right: 20px;">Live Now</a><a class="cb-nav-pill-2 {{(option=='today')?'active':''}}" ng-click="option='today'" style="margin-right: 20px;">Today</a></nav>
+                           <style>.cb-nt-{{option}}{opacity:0.4!important;}</style>
+                           <ul class="cb-scg-drp-dwn-ul">
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mm-typ">INTERNATIONAL</div>
+                                    <div class="cb-scg-srs-nm">India v England, 2021</div>
+                                    <div class="cb-mtch-all">
+                                       <a href="/live-cricket-scores/32253/ind-vs-eng-1st-test-india-v-england-2021" target="_self" title="India v England, 1st Test - Live"><span class="cb-mm-mtch-tm">India vs England</span><span class="cb-mm-liv-tag">  LIVE</span></a>
+                                       <div class="cb-mm-mtch-nm">1st Test</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-scg-srs-nm">Pakistan v South Africa, 2021</div>
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test-pakistan-v-south-africa-2021" target="_self" title="Pakistan v South Africa, 2nd Test - Tea"><span class="cb-mm-mtch-tm">Pakistan vs South Africa</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">2nd Test</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-scg-srs-nm">Bangladesh v West indies, 2021</div>
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/32312/ban-vs-wi-1st-test-bangladesh-v-west-indies-2021" target="_self" title="Bangladesh v West Indies, 1st Test - Stumps"><span class="cb-mm-mtch-tm">Bangladesh vs West Indies</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">1st Test</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mm-typ">T20 LEAGUE</div>
+                                    <div class="cb-scg-srs-nm">BBL 2020-21</div>
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/31878/prs-vs-brh-challenger-bbl-2020-21" target="_self" title="Perth Scorchers v Brisbane Heat, Challenger - PRS Won"><span class="cb-mm-mtch-tm">Perth Scorchers vs Brisbane Heat</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Challenger</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/31883/sys-vs-prs-final-bbl-2020-21" target="_self" title="Sydney Sixers v Perth Scorchers, Final - Upcoming"><span class="cb-mm-mtch-tm">Sydney Sixers vs Perth Scorchers</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Final</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-scg-srs-nm">T10 League</div>
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33737/bgt-vs-qld-19th-match-super-league-t10-league" target="_self" title="Bangla Tigers v Qalandars, 19th Match, Super League - QLD Won"><span class="cb-mm-mtch-tm">Bangla Tigers vs Qalandars</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">19th Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33738/ma-vs-ad-20th-match-super-league-t10-league" target="_self" title="Maratha Arabians v Team Abu Dhabi, 20th Match, Super League - AD Won"><span class="cb-mm-mtch-tm">Maratha Arabians vs Team Abu Dhabi</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">20th Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33742/nw-vs-pd-21st-match-super-league-t10-league" target="_self" title="Northern Warriors v Pune Devils, 21st Match, Super League - NW Won"><span class="cb-mm-mtch-tm">Northern Warriors vs Pune Devils</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">21st Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33743/deg-vs-ma-22nd-match-super-league-t10-league" target="_self" title="Deccan Gladiators v Maratha Arabians, 22nd Match, Super League - DEG Won"><span class="cb-mm-mtch-tm">Deccan Gladiators vs Maratha Arabians</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">22nd Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33747/qld-vs-dbl-23rd-match-super-league-t10-league" target="_self" title="Qalandars v Delhi Bulls, 23rd Match, Super League - DBL Won"><span class="cb-mm-mtch-tm">Qalandars vs Delhi Bulls</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">23rd Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33752/ad-vs-bgt-24th-match-super-league-t10-league" target="_self" title="Team Abu Dhabi v Bangla Tigers, 24th Match, Super League - AD Won"><span class="cb-mm-mtch-tm">Team Abu Dhabi vs Bangla Tigers</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">24th Match, Super League</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/33757/dbl-vs-nw-qualifier-1-t10-league" target="_self" title="Delhi Bulls v Northern Warriors, Qualifier 1 - Preview"><span class="cb-mm-mtch-tm">Delhi Bulls vs Northern Warriors</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Qualifier 1</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/33758/qld-vs-ad-eliminator-1-t10-league" target="_self" title="Qalandars v Team Abu Dhabi, Eliminator 1 - Preview"><span class="cb-mm-mtch-tm">Qalandars vs Team Abu Dhabi</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Eliminator 1</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/33763/tbc-vs-tbc-eliminator-2-t10-league" target="_self" title="TBC v TBC, Eliminator 2 - Upcoming"><span class="cb-mm-mtch-tm">TBC vs TBC</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Eliminator 2</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33767/tbc-vs-tbc-3rd-place-play-off-t10-league" target="_self" title="TBC v TBC, 3rd Place Play-off - Upcoming"><span class="cb-mm-mtch-tm">TBC vs TBC</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">3rd Place Play-off</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33768/tbc-vs-tbc-final-t10-league" target="_self" title="TBC v TBC, Final - Upcoming"><span class="cb-mm-mtch-tm">TBC vs TBC</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Final</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-scg-srs-nm">Super Smash</div>
+                                    <div class="cb-mtch-all cb-nt-live">
+                                       <a href="/live-cricket-scores/31009/cd-vs-can-28th-match-super-smash" target="_self" title="Central Districts v Canterbury, 28th Match - Complete"><span class="cb-mm-mtch-tm">Central Districts vs Canterbury</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">28th Match</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/31010/otg-vs-nk-29th-match-super-smash" target="_self" title="Otago v Northern Knights, 29th Match - Upcoming"><span class="cb-mm-mtch-tm">Otago vs Northern Knights</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">29th Match</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/31015/akl-vs-wel-30th-match-super-smash" target="_self" title="Auckland v Wellington, 30th Match - Upcoming"><span class="cb-mm-mtch-tm">Auckland vs Wellington</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">30th Match</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mm-typ">DOMESTIC</div>
+                                    <div class="cb-scg-srs-nm">Momentum Cup</div>
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/33452/dol-vs-lions-final-momentum-cup" target="_self" title="Dolphins v Lions, Final - Abandon"><span class="cb-mm-mtch-tm">Dolphins vs Lions</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">Final</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mtch-all">
+                                       <a href="/live-cricket-scores/33818/dol-vs-lions-final-rescheduled-match-momentum-cup" target="_self" title="Dolphins v Lions, Final (Rescheduled match) - Live"><span class="cb-mm-mtch-tm">Dolphins vs Lions</span><span class="cb-mm-liv-tag">  LIVE</span></a>
+                                       <div class="cb-mm-mtch-nm">Final (Rescheduled match)</div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="cb-lst-mtch cb-lst-dom">
+                                 <div style="display:inline-block">
+                                    <div class="cb-mm-typ">WOMEN</div>
+                                    <div class="cb-scg-srs-nm">South Africa Women v Pakistan Women, 2021</div>
+                                    <div class="cb-mtch-all cb-nt-live cb-nt-today">
+                                       <a href="/live-cricket-scores/32562/rsaw-vs-pakw-3rd-t20i-south-africa-women-v-pakistan-women-2021" target="_self" title="South Africa Women v Pakistan Women, 3rd T20I - PAKW Won"><span class="cb-mm-mtch-tm">South Africa Women vs Pakistan Women</span><span class="cb-mm-liv-tag"></span></a>
+                                       <div class="cb-mm-mtch-nm">3rd T20I</div>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="home_matches" style="margin-top:5px">
+               <div class="cb-col cb-col-100">
+                  <div class="cb-col cb-col-100 html-refresh" id="match_menu_container" timeout="45000" url="/api/html/homepage-scag">
+                     <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                        <div class="cb-cat-head-wrap cb-col cb-col-100 cb-float-none">
+                           <div class="cb-cat-head-text-wrap">
+                              <h4 class="cb-mdl-hdr">Featured Matches</h4>
+                           </div>
+                        </div>
+                        <div class="videos-list-carousal" id="hm-scag-mtch-blk" minlength="4" style="height:90px;" total="6">
+                           <ul class="cb-col cb-col-100 videos-carousal-wrapper">
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/32253/ind-vs-eng-1st-test-england-tour-of-india-2021" target="_self" title="India v England - 1st Test">
+                                    <div class="cb-hmscg-bat-txt cb-ovr-flo">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">ENG</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">228-2</div>
+                                    </div>
+                                    <div class="cb-hmscg-bwl-txt">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">IND</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px"></div>
+                                    </div>
+                                    <div class="cb-ovr-flo cb-text-live">Day 1: 3rd Session</div>
+                                 </a>
+                              </li>
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test-south-africa-tour-of-pakistan-2021" target="_self" title="Pakistan v South Africa - 2nd Test">
+                                    <div class="cb-hmscg-bwl-txt cb-ovr-flo">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">PAK</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">272</div>
+                                    </div>
+                                    <div class="cb-hmscg-bat-txt">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">RSA</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">26-2</div>
+                                    </div>
+                                    <div class="cb-ovr-flo cb-text-live">Day 2: Tea Break - South Africa trail by 246 runs</div>
+                                 </a>
+                              </li>
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/32312/ban-vs-wi-1st-test-west-indies-tour-of-bangladesh-2021" target="_self" title="Bangladesh v West Indies - 1st Test">
+                                    <div class="cb-hmscg-bat-txt cb-ovr-flo">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">BAN</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">430 &amp; 47-3</div>
+                                    </div>
+                                    <div class="cb-hmscg-bwl-txt">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">WI</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">259</div>
+                                    </div>
+                                    <div class="cb-ovr-flo cb-text-live">Day 3: Stumps - Bangladesh lead by 218 runs</div>
+                                 </a>
+                              </li>
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/31009/cd-vs-can-28th-match-super-smash-2020-21" target="_self" title="Central Districts v Canterbury - 28th Match">
+                                    <div class="cb-hmscg-bat-txt cb-ovr-flo">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">CD</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">183-6 (20)</div>
+                                    </div>
+                                    <div class="cb-hmscg-bwl-txt">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">CAN</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">153-7 (20)</div>
+                                    </div>
+                                    <div class="cb-ovr-flo cb-text-complete">Central Districts won by 30 runs</div>
+                                 </a>
+                              </li>
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/33818/dol-vs-lions-final-rescheduled-match-momentum-one-day-cup-2021" target="_self" title="Dolphins v Lions - Final (Rescheduled match)">
+                                    <div class="cb-hmscg-bat-txt cb-ovr-flo">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">LION..</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px">93-3 (23)</div>
+                                    </div>
+                                    <div class="cb-hmscg-bwl-txt">
+                                       <div class="cb-ovr-flo cb-hmscg-tm-nm">DOL</div>
+                                       <div class="cb-ovr-flo" style="display:inline-block; width:140px"></div>
+                                    </div>
+                                    <div class="cb-ovr-flo cb-text-live">Dolphins opt to bowl</div>
+                                 </a>
+                              </li>
+                              <li class="cb-col cb-col-25 cb-mtch-blk cb-vid-sml-card-api videos-carousal-item cb-carousal-item-large cb-view-all-ga">
+                                 <a class="cb-font-12" href="/live-cricket-scores/33757/dbl-vs-nw-qualifier-1-t10-league-2021" target="_self" title="Delhi Bulls v Northern Warriors - Qualifier 1">
+                                    <div class="cb-hmscg-bat-txt cb-ovr-flo">Delhi Bulls</div>
+                                    <div class="cb-hmscg-bat-txt">Northern Warriors</div>
+                                    <div class="cb-ovr-flo cb-text-preview" ng-bind="1612526400000 |date: 'EEEE, d MMM, hh:mm a'"></div>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ad-unit" id="menu_branding" style="float:right;"></div>
+               </div>
+            </div>
+            <meta content="400" http-equiv="refresh"/>
+            <div class="cb-col cb-col-20">
+               <div class="cb-bg-white" id="cb-news-blck">
+                  <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">LATEST NEWS</h2>
+                  <div class="cb-hm-lft">
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116066/shakib-al-hasan-laid-low-by-a-thigh-strain" title="Shakib laid low by a thigh strain">Shakib laid low by a thigh strain</a>
+                        <div class="cb-nws-time">2h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116065/will-sutherland-fined-for-breaching-bio-bubble" title="Will Sutherland fined for breaching bio-bubble">Will Sutherland fined for breaching bio-bubble</a>
+                        <div class="cb-nws-time">2h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116062/lisa-sthalekar-inducted-into-australian-cricket-hall-of-fame" title="Lisa Sthalekar inducted into Australian Cricket Hall of Fame">Lisa Sthalekar inducted into Australian Cricket Hall of Fame</a>
+                        <div class="cb-nws-time">4h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116058/knee-injury-rules-axar-patel-out-of-first-england-test-india-vs-england" title="Knee injury rules Axar Patel out of first England Test">Knee injury rules Axar Patel out of first England Test</a>
+                        <div class="cb-nws-time">8h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116056/mehidy-thanks-senior-pros-for-tips-after-maiden-test-ton" title="Mehidy thanks senior pros for tips after maiden Test ton">Mehidy thanks senior pros for tips after maiden Test ton</a>
+                        <div class="cb-nws-time">19h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116052/williamson-underlines-importance-of-wtc-in-shaping-nz-campaign" title="Williamson underlines importance of WTC in shaping NZ campaign">Williamson underlines importance of WTC in shaping NZ campaign</a>
+                        <div class="cb-nws-time">23h ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116047/wrist-injury-rules-crawley-out-of-the-chennai-tests-india-england" title="Wrist injury rules Crawley out of the Chennai Tests">Wrist injury rules Crawley out of the Chennai Tests</a>
+                        <div class="cb-nws-time">1d ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116045/bangladesh-tour-of-new-zealand-pushed-back-by-seven-days" title="Bangladesh tour of New Zealand pushed back by seven days">Bangladesh tour of New Zealand pushed back by seven days</a>
+                        <div class="cb-nws-time">1d ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116042/root-deflects-pressure-onto-favourites-india" title="Root deflects pressure onto favourites India">Root deflects pressure onto favourites India</a>
+                        <div class="cb-nws-time">1d ago</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/116041/imran-khwaja-beats-ricky-skerritt-to-remain-iccs-deputy-chairman" title="Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman">Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman</a>
+                        <div class="cb-nws-time">1d ago</div>
+                     </div>
+                     <div class="cb-hm-mr-lnk"><a class="cb-font-12 cb-text-link" href="/cricket-news/latest-news" title="More News"><i>More News..</i></a></div>
+                  </div>
+               </div>
+               <div class="cb-bg-white" id="hm-photos-blk">
+                  <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">LATEST PHOTOS</h2>
+                  <div class="cb-hm-lft">
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5007/bangladesh-vs-west-indies-1st-test-day-3-chattogram" title="Bangladesh vs West Indies, 1st Test, Day 3, Chattogram ">
+                           <img alt="Bangladesh vs West Indies, 1st Test, Day 3, Chattogram " class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201663/bangladesh-vs-west-indies-1st.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">Bangladesh vs West Indies, 1st Test, Day 3, Chattogram </div>
+                           <span class="cb-nws-time">Fri, Feb 05 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5006/pakistan-vs-south-africa-2nd-test-day-2" title="Pakistan vs South Africa, 2nd Test, Day 2">
+                           <img alt="Pakistan vs South Africa, 2nd Test, Day 2" class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201653/pakistan-vs-south-africa-2nd.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">Pakistan vs South Africa, 2nd Test, Day 2</div>
+                           <span class="cb-nws-time">Fri, Feb 05 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5005/india-vs-england-1st-test-day-1" title="India vs England, 1st Test, Day 1">
+                           <img alt="India vs England, 1st Test, Day 1" class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201646/india-vs-england-1st-test-da.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">India vs England, 1st Test, Day 1</div>
+                           <span class="cb-nws-time">Fri, Feb 05 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5004/bangladesh-vs-west-indies-1st-test-day-2-chattogram" title="Bangladesh vs West Indies, 1st Test, Day 2, Chattogram ">
+                           <img alt="Bangladesh vs West Indies, 1st Test, Day 2, Chattogram " class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201600/bangladesh-vs-west-indies-1st.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">Bangladesh vs West Indies, 1st Test, Day 2, Chattogram </div>
+                           <span class="cb-nws-time">Thu, Feb 04 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5003/pakistan-vs-south-africa-2nd-test-day-1" title="Pakistan vs South Africa, 2nd Test, Day 1">
+                           <img alt="Pakistan vs South Africa, 2nd Test, Day 1" class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201583/pakistan-vs-south-africa-2nd.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">Pakistan vs South Africa, 2nd Test, Day 1</div>
+                           <span class="cb-nws-time">Thu, Feb 04 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <a href="/cricket-gallery/5002/bangladesh-vs-west-indies-1st-test-day-1-chattogram" title="Bangladesh vs West Indies, 1st Test, Day 1, Chattogram ">
+                           <img alt="Bangladesh vs West Indies, 1st Test, Day 1, Chattogram " class="lazy-loading pad-0" height="95" source="/a/img/v1/165x95/i1/c201545/bangladesh-vs-west-indies-1st.jpg" src="" width="165"/>
+                           <div class="cb-nws-hdln">Bangladesh vs West Indies, 1st Test, Day 1, Chattogram </div>
+                           <span class="cb-nws-time">Wed, Feb 03 2021</span>
+                        </a>
+                     </div>
+                     <div class="cb-hm-mr-lnk"> <a class="cb-font-12 cb-text-link" href="/cricket-photo-gallery" title="More Photos"><i>More Photos..</i></a> </div>
+                  </div>
+               </div>
+               <div class="cb-bg-white">
+                  <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">SCHEDULE</h2>
+                  <div class="cb-hm-lft">
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 1st Test, Day 1</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612497600000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612497600000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 1st Test, Day 3</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612495800000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612495800000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 2nd Test, Day 2</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612501200000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612501200000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 1st Test, Day 2</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612584000000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612584000000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 1st Test, Day 4</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612582200000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612582200000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 2nd Test, Day 3</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612587600000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612587600000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 1st Test, Day 3</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612670400000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612670400000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 1st Test, Day 5</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612668600000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612668600000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 2nd Test, Day 4</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612674000000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612674000000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 1st Test, Day 4</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612756800000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612756800000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 2nd Test, Day 5</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612760400000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612760400000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 1st Test, Day 5</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1612843200000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1612843200000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 2nd Test, Day 1</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613014200000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613014200000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 1st T20I</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613039400000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613039400000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 2nd Test, Day 2</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613100600000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613100600000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 2nd Test, Day 1</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613188800000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613188800000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 2nd Test, Day 3</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613187000000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613187000000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 2nd T20I</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613212200000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613212200000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 2nd Test, Day 2</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613275200000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613275200000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 2nd Test, Day 4</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613273400000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613273400000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Pakistan vs South Africa, 3rd T20I</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613298600000" venue="+05:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613298600000" venue="+05:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 2nd Test, Day 3</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613361600000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613361600000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>Bangladesh vs West Indies, 2nd Test, Day 5</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613359800000" venue="+06:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613359800000" venue="+06:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 2nd Test, Day 4</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613448000000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613448000000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>India vs England, 2nd Test, Day 5</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613534400000" venue="+05:30"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613534400000" venue="+05:30"></span> GMT</div>
+                     </div>
+                     <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                        <div>New Zealand vs Australia, 1st T20I</div>
+                        <div class="cb-nws-time"><span class="schedule-date" format="EEE MMM dd" timestamp="1613973600000" venue="+13:00"></span> • <span class="schedule-date" format="h:mm a" timestamp="1613973600000" venue="+13:00"></span> GMT</div>
+                     </div>
+                     <div class="cb-hm-mr-lnk"> <a class="cb-font-12 cb-text-link" href="/cricket-schedule/upcoming-series/international" title="Cricket Schedule"><i>More Matches..</i></a> </div>
+                  </div>
+               </div>
+            </div>
+            <div class="cb-col cb-col-47">
+               <div id="video_playlist">
+                  <script> CBQueue.push(function(){ if((_GEO.country == "US" || _GEO.country == "CA") && false){ _ele('#video_playlist').html('<div class="cb-bg-white" style="margin:0 5px 10px;"><div class="kaltura-playlist" uiconf_id="33885652" entry_id="0_lvphia47" uiautoplay="false" style="width:420px;height:385px;padding:10px 15px;"></div></div>'); }else if(["AE","SA","KW","BH","QA","OM","GB"].indexOf(_GEO.country) != -1 && false){ var eplr = document.createElement('script'); eplr.type = 'text/javascript'; eplr.async = true; eplr.src = 'https://player.performgroup.com/eplayer.js#ccb175de91b4f3c5c4bbed6a35.qjdsydmry69m1je82zk8il975'; var vpl = document.getElementById('video_playlist'); vpl.className = "cb-bg-white"; vpl.style.margin = "0px 5px 10px"; vpl.appendChild(eplr); } }); </script>
+               </div>
+               <script>CBQueue.push(function(){	if(_GEO.country == "US" || _GEO.country == "CA"){	_ele('#kaltura-video-player').removeClass('disp-none');	}	if(_GEO.country == "IN" ){	_ele('specials-home-module').removeClass('disp-none');	}
+                  });
+               </script>
+               <div class="cb-col cb-hm-mid cb-bg-white cb-hmpage" style="clear:both">
+                  <div class="big-crd-main cb-bg-white">
+                     <div class="crd-cntxt"><span>ENGLAND TOUR OF INDIA, 2021</span></div>
+                     <a href="/live-cricket-scores/32253/england-tour-of-india-2021" title="Root hits ton in his 100th Test"><img alt="Root hits ton in his 100th Test" height="235" itemprop="image" src="/a/img/v1/420x235/i1/c201675/root-hits-ton-in-his-100th-tes.jpg" title="Root hits ton in his 100th Test" width="420"/></a>
+                     <h2 class="big-crd-hdln"><a href="/live-cricket-scores/32253/england-tour-of-india-2021" title="Root hits ton in his 100th Test">	Root hits ton in his 100th Test</a></h2>
+                     <div class="cb-nws-intr">Dominic Sibley and Joe Root rescued England after the visitors lost two wickets before the lunch break</div>
+                     <div class="cb-hm-mtch-crd-width cb-lv-scrs-well cb-lv-scrs-well-live">
+                        <a href="/live-cricket-scores/32253/england-tour-of-india-2021-england-tour-of-india-2021" title="England tour of India, 2021 Live cricket scores">
+                           <div class="cb-col cb-col-100 cb-hm-mtch-crd">
+                              <div class="cb-scr-wll-chvrn cb-col-90">
+                                 <div class="cb-lv-scrs-col text-black">
+                                    <div class="cb-col cb-mr-30">
+                                       <div class="text-bold">ENG</div>
+                                       <div class="text-bold">IND</div>
+                                    </div>
+                                    <div class="cb-col">
+                                       <div> <span>227-2</span> <span> (78.1)</span> </div>
+                                       <div> </div>
+                                    </div>
+                                 </div>
+                                 <div class="cb-lv-scrs-col cb-text-live" style="white-space:unset;">Day 1: 3rd Session</div>
+                              </div>
+                              <div class="cb-scr-wll-chvrn cb-col-10">
+                                 <div class="cb-ico cb-lv-scr-chvrn-bg"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116059/live-blog" title="Live Blog"><span class="cb-pretag">Day 1 / </span>Live Blog</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116068/wicketless-session-sees-england-edge-ahead" title="Wicketless session sees England edge ahead"><span class="cb-pretag">Tea Report / </span>Wicketless session sees England edge ahead</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-gallery/5005/day-1-in-pictures" title="Day 1 in pictures">Day 1 in pictures</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/115998/joe-root-entertainer-perfectionist-leader-legend" title="Joe Root - Entertainer, perfectionist, leader, legend"><span class="cb-pretag">Spotlight / </span>Joe Root - Entertainer, perfectionist, leader, legend</a></div>
+                  </div>
+                  <div class="big-crd-main cb-bg-white">
+                     <div class="crd-cntxt"><span>PAK VS RSA, 2ND TEST</span></div>
+                     <a href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test" title="Nortje bags five as Pakistan fold for 272"><img alt="Nortje bags five as Pakistan fold for 272" height="235" itemprop="image" src="/a/img/v1/420x235/i1/c201674/nortje-bags-five-as-pakistan-f.jpg" title="Nortje bags five as Pakistan fold for 272" width="420"/></a>
+                     <h2 class="big-crd-hdln"><a href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test" title="Nortje bags five as Pakistan fold for 272">	Nortje bags five as Pakistan fold for 272</a></h2>
+                     <div class="cb-nws-intr">Ashraf scored a fine 78</div>
+                     <div class="cb-hm-mtch-crd-width cb-lv-scrs-well cb-lv-scrs-well-live">
+                        <a href="/live-cricket-scores/32232/pak-vs-rsa-2nd-test-south-africa-tour-of-pakistan-2021" title="PAK Vs RSA, 2nd Test Live cricket scores">
+                           <div class="cb-col cb-col-100 cb-hm-mtch-crd">
+                              <div class="cb-scr-wll-chvrn cb-col-90">
+                                 <div class="cb-lv-scrs-col text-black">
+                                    <div class="cb-col cb-mr-30">
+                                       <div class="text-bold">RSA</div>
+                                       <div class="text-bold">PAK</div>
+                                    </div>
+                                    <div class="cb-col">
+                                       <div> <span>26-2</span> <span> (6)</span> </div>
+                                       <div> <span>272</span> </div>
+                                    </div>
+                                 </div>
+                                 <div class="cb-lv-scrs-col cb-text-live" style="white-space:unset;">Day 2: Tea Break - South Africa trail by 246 runs</div>
+                              </div>
+                              <div class="cb-scr-wll-chvrn cb-col-10">
+                                 <div class="cb-ico cb-lv-scr-chvrn-bg"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116060/live-blog" title="Live Blog"><span class="cb-pretag">Day 2 / </span>Live Blog</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116064/ashraf-fights-as-south-africa-chip-away" title="Ashraf fights as South Africa chip away"><span class="cb-pretag">Lunch report / </span>Ashraf fights as South Africa chip away</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116055/a-tale-of-two-sessions" title="A tale of two sessions">A tale of two sessions</a></div>
+                  </div>
+                  <div class="big-crd-main cb-bg-white">
+                     <div class="crd-cntxt"><span>BAN VS WI, 1ST TEST</span></div>
+                     <a href="/live-cricket-scores/32312/ban-vs-wi-1st-test" title="Bangladesh wobble after bagging big lead"><img alt="Bangladesh wobble after bagging big lead" height="235" itemprop="image" src="/a/img/v1/420x235/i1/c201620/bangladesh-wobble-after-baggin.jpg" title="Bangladesh wobble after bagging big lead" width="420"/></a>
+                     <h2 class="big-crd-hdln"><a href="/live-cricket-scores/32312/ban-vs-wi-1st-test" title="Bangladesh wobble after bagging big lead">	Bangladesh wobble after bagging big lead</a></h2>
+                     <div class="cb-nws-intr">West Indies lost their last five wickets for six runs to hand the advantage to Bangladesh</div>
+                     <div class="cb-hm-mtch-crd-width cb-lv-scrs-well cb-lv-scrs-well-live">
+                        <a href="/live-cricket-scores/32312/ban-vs-wi-1st-test-west-indies-tour-of-bangladesh-2021" title="BAN Vs WI, 1st Test Live cricket scores">
+                           <div class="cb-col cb-col-100 cb-hm-mtch-crd">
+                              <div class="cb-scr-wll-chvrn cb-col-90">
+                                 <div class="cb-lv-scrs-col text-black">
+                                    <div class="cb-col cb-mr-30">
+                                       <div class="text-bold">BAN</div>
+                                       <div class="text-bold">WI</div>
+                                    </div>
+                                    <div class="cb-col">
+                                       <div> <span>430</span> <span style="margin-left:-3px;"> ,</span> <span>47-3</span> <span> (20)</span> </div>
+                                       <div> <span>259</span> </div>
+                                    </div>
+                                 </div>
+                                 <div class="cb-lv-scrs-col cb-text-live" style="white-space:unset;">Day 3: Stumps - Bangladesh lead by 218 runs</div>
+                              </div>
+                              <div class="cb-scr-wll-chvrn cb-col-10">
+                                 <div class="cb-ico cb-lv-scr-chvrn-bg"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116067/bangladesh-fight-back-with-late-strikes" title="Bangladesh fight back with late strikes"><span class="cb-pretag">Tea report / </span>Bangladesh fight back with late strikes</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116066/shakib-laid-low-by-a-thigh-strain" title="Shakib laid low by a thigh strain">Shakib laid low by a thigh strain</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116038/selection-policy-in-scrutiny-after-jayed-is-left-out" title="Selection policy in scrutiny after Jayed is left out">Selection policy in scrutiny after Jayed is left out</a></div>
+                     <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/116056/mehidy-thanks-senior-pros-for-tips-after-maiden-test-ton" title="Mehidy thanks senior pros for tips after maiden Test ton">Mehidy thanks senior pros for tips after maiden Test ton</a></div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">BBL 2020-21</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116054/scorchers-set-bbl-finale-date-with-sydney-sixers" title="Scorchers set BBL finale date with Sydney Sixers"><img alt="Scorchers set BBL finale date with Sydney Sixers" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201609/scorchers-set-bbl-finale-date.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116054/scorchers-set-bbl-finale-date-with-sydney-sixers" title="Scorchers set BBL finale date with Sydney Sixers">Scorchers set BBL finale date with Sydney Sixers</a></h3>
+                        <div class="sml-crd-subtxt">2h ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Liam Livingstone's blistering 77 underlined Scorcher's 49-run win over Brisbane Heat in the Challenger</div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116065/will-sutherland-fined-for-breaching-bio-bubble" title="Will Sutherland fined for breaching bio-bubble">Will Sutherland fined for breaching bio-bubble</a></div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">WORLD TEST CHAMPIONSHIP FINAL</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116052/williamson-underlines-how-wtc-shaped-nz-campaign" title="Williamson underlines how WTC shaped NZ campaign"><img alt="Williamson underlines how WTC shaped NZ campaign" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201606/williamson-underlines-how-wtc.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116052/williamson-underlines-how-wtc-shaped-nz-campaign" title="Williamson underlines how WTC shaped NZ campaign">Williamson underlines how WTC shaped NZ campaign</a></h3>
+                        <div class="sml-crd-subtxt">23h ago</div>
+                     </div>
+                     <div class="cb-nws-intr">The captain has highlighted how the prospect of featuring in the final drove his team in the chances they got</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">AUSTRALIA'S POSTPONED TOUR OF SA</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116037/we-laid-down-the-red-carpet-for-australia-which-is-frustrating" title="'We laid down the red carpet for Australia, which is frustrating'"><img alt="'We laid down the red carpet for Australia, which is frustrating'" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201560/we-laid-down-the-red-carpet-f.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116037/we-laid-down-the-red-carpet-for-australia-which-is-frustrating" title="'We laid down the red carpet for Australia, which is frustrating'">'We laid down the red carpet for Australia, which is frustrating'</a></h3>
+                        <div class="sml-crd-subtxt">23h ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Mark Boucher isn't too excited that a "lot of goalposts were being moved" to accommodate Australia's visit</div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116022/aussies-decision-to-pull-out-of-tour-infuriates-south-africans" title="Aussies' decision to pull out of tour infuriates South Africans">Aussies' decision to pull out of tour infuriates South Africans</a></div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116017/australia-postpone-south-africa-tour-citing-health-concern" title="Australia postpone South Africa tour citing health concern">Australia postpone South Africa tour citing health concern</a></div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116025/ca-confirms-last-ditch-offer-was-made-to-host-south-africa" title="CA confirms last-ditch offer was made to host South Africa">CA confirms last-ditch offer was made to host South Africa</a></div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116018/wtc-final-qualification-scenario-can-australia-still-qualify" title="WTC final qualification scenario: Can Australia still qualify?">WTC final qualification scenario: Can Australia still qualify?</a></div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">AUSTRALIAN CRICKET HALL OF FAME</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116062/lisa-sthalekar-inducted-into-australian-cricket-hall-of-fame" title="Lisa Sthalekar inducted into Australian Cricket Hall of Fame"><img alt="Lisa Sthalekar inducted into Australian Cricket Hall of Fame" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201629/lisa-sthalekar-inducted-into-a.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116062/lisa-sthalekar-inducted-into-australian-cricket-hall-of-fame" title="Lisa Sthalekar inducted into Australian Cricket Hall of Fame">Lisa Sthalekar inducted into Australian Cricket Hall of Fame</a></h3>
+                        <div class="sml-crd-subtxt">4h ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Former Australia women allrounder played eight Tests, 125 ODIs and 54 T20Is after making her debut in 2001</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">AUSTRALIA NEWS</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116028/justin-langer-has-our-full-support-cricket-australia-ceo" title="Justin Langer has our full support - Cricket Australia CEO"><img alt="Justin Langer has our full support - Cricket Australia CEO" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201543/justin-langer-has-our-full-sup.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116028/justin-langer-has-our-full-support-cricket-australia-ceo" title="Justin Langer has our full support - Cricket Australia CEO">Justin Langer has our full support - Cricket Australia CEO</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Nick Hockley put his weight behind the under-fire head coach amidst rumblings of discontentment over his uncompromising attitude</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">ICC BOARD GAMES</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116041/imran-khwaja-beats-ricky-skerritt-to-remain-iccs-deputy-chairman" title="Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman"><img alt="Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201565/imran-khwaja-beats-ricky-skerr.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116041/imran-khwaja-beats-ricky-skerritt-to-remain-iccs-deputy-chairman" title="Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman">Imran Khwaja beats Ricky Skerritt to remain ICC's deputy chairman</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">The 64-year-old lawyer from Singapore won the fiercely-fought election by the margin of a single vote (9 to 8)</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">COVID-19 IN CRICKET</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116032/sl-tour-of-wi-hanging-by-thread-after-positive-covid-tests" title="SL tour of WI hanging by thread after positive COVID tests"><img alt="SL tour of WI hanging by thread after positive COVID tests" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201553/sl-tour-of-wi-hanging-by-threa.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116032/sl-tour-of-wi-hanging-by-thread-after-positive-covid-tests" title="SL tour of WI hanging by thread after positive COVID tests">SL tour of WI hanging by thread after positive COVID tests</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Head coach Micky Arthur and batsman Lahiru Thirimanne have tested positive for COVID-19 ahead of the tour</div>
+                     <div class="big-crd-reltd-itm"> <a class="big-crd-rltd-txt" href="/cricket-news/116033/sri-lanka-to-tour-bangladesh-in-may-for-three-odis" title="Sri Lanka to tour Bangladesh in May for three ODIs">Sri Lanka to tour Bangladesh in May for three ODIs</a></div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">RESCHEDULED</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116045/bangladesh-tour-of-new-zealand-pushed-back-by-seven-days" title="Bangladesh tour of New Zealand pushed back by seven days"><img alt="Bangladesh tour of New Zealand pushed back by seven days" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201573/bangladesh-tour-of-new-zealand.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116045/bangladesh-tour-of-new-zealand-pushed-back-by-seven-days" title="Bangladesh tour of New Zealand pushed back by seven days">Bangladesh tour of New Zealand pushed back by seven days</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">The T20I series will be played as double headers with New Zealand women's hosting Australia</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">SOUTH AFRICA WOMEN'S TOUR OF INDIA</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116011/south-africa-womens-team-set-to-tour-india-for-limited-overs-series" title="South Africa women's team set to tour India for limited overs series"><img alt="South Africa women's team set to tour India for limited overs series" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201521/south-africa-womens-team-set.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116011/south-africa-womens-team-set-to-tour-india-for-limited-overs-series" title="South Africa women's team set to tour India for limited overs series">South Africa women's team set to tour India for limited overs series</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">The two teams are expected to play five ODIs and three T20Is</div>
+                  </div>
+                  <div class="ad-unit center-block" id="native_ads_web"></div>
+                  <div ad-content='&lt;div class="sml-crd-main"&gt;&lt;div class="cb-col-33 cb-col"&gt;&lt;a rel="nofollow noreferrer" title="[[title]]" target="_blank" href="[[clk]]"&gt;&lt;img style="padding:0px;width:140px;" alt="[[title]]" class="img-responsive ng-isolate-scope" src="[[img]]" image-loaded="true"&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="cb-col-67 cb-col"&gt;&lt;div class="sml-crd-hdln cb-font-18 line-ht24"&gt;&lt;a title="[[title]]" class="text-black text-hvr-underline" target="_blank" href="[[clk]]"&gt;[[title]]&lt;/a&gt;&lt;/div&gt;&lt;div style="float:right;margin-top:-50px;"&gt;&lt;a rel="noreferrer" target="_blank" href="[[adchoicesClickURL]]"&gt;&lt;img src="[[adchoicesImgURL]]"/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="ad-native-sponsor sml-crd-subtxt"&gt;[[sponsor]]&lt;img src="[[logo]]" class="pull-right" style="height:14px;" /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="cb-nws-intr"&gt;[[text]]&lt;/div&gt;&lt;/div&gt;' ad-loaded="false" class="ad-native ng-cloak" id="native_homepage_news"></div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">SA TOUR OF PAKISTAN, 2021</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/115999/fakhar-zaman-wahab-riaz-dropped-for-south-africa-t20is" title="Fakhar Zaman, Wahab Riaz dropped for South Africa T20Is"><img alt="Fakhar Zaman, Wahab Riaz dropped for South Africa T20Is" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201492/fakhar-zaman-wahab-riaz-dropp.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/115999/fakhar-zaman-wahab-riaz-dropped-for-south-africa-t20is" title="Fakhar Zaman, Wahab Riaz dropped for South Africa T20Is">Fakhar Zaman, Wahab Riaz dropped for South Africa T20Is</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Zafar Gohar, Amad Butt, Danis Aziz and Zahid Mahmood are the four uncapped players in the squad</div>
+                  </div>
+                  <div class="sml-crd-main">
+                     <div class="crd-cntxt">THE HUNDRED</div>
+                     <div class="cb-col-33 cb-col"><a href="/cricket-news/116031/steve-smith-starc-released-by-welsh-fire" title="Steve Smith, Starc released by Welsh Fire"><img alt="Steve Smith, Starc released by Welsh Fire" class="lazy-loading" height="75" source="/a/img/v1/135x75/i1/c201552/steve-smith-starc-released-by.jpg" src="" style="padding:0px;" width="135"/></a></div>
+                     <div class="cb-col-67 cb-col cb-hdln-hght">
+                        <h3 class="sml-crd-hdln"><a href="/cricket-news/116031/steve-smith-starc-released-by-welsh-fire" title="Steve Smith, Starc released by Welsh Fire">Steve Smith, Starc released by Welsh Fire</a></h3>
+                        <div class="sml-crd-subtxt">1d ago</div>
+                     </div>
+                     <div class="cb-nws-intr">Meanwhile, Alex Hartley, Freya Davies and Amelia Kerr are among the new signings in The Hundred</div>
+                  </div>
+               </div>
+            </div>
+            <div class="cb-col cb-col-33">
+               <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                  <div class="ad-unit center-block" id="mpu" style="min-height: 250px;"></div>
+               </div>
+               <div class="ad-unit" id="strip_320x50"></div>
+               <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white" gtm-label="Homepage" id="latest-vid-mod">
+                  <h4 class="cb-mdl-hdr">Featured Videos</h4>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a class="suggested-video-gtm" gtm-label="England have batted well, but the game has not gone away from India: Harsha Bhogle|45409" href="/cricket-videos/45409/england-have-batted-well-but-the-game-has-not-gone-away-from-india-harsha-bhogle" target="_self" title="England have batted well, but the game has not gone away from India: Harsha Bhogle">
+                        <div class="cb-pos-rel">
+                           <img alt="England have batted well, but the game has not gone away from India: Harsha Bhogle" class="cb-suggested-vid-img suggested-video-gtm lazy-loading" gtm-label="England have batted well, but the game has not gone away from India: Harsha Bhogle|45409" height="164" source="/a/img/v1/290x164/i1/c201660/england-have-batted-well-but.jpg" src="" title="England have batted well, but the game has not gone away from India: Harsha Bhogle" width="290"/>
+                           <div class="cb-vid-duration">14:10</div>
+                           <div class="cb-cen">
+                              <div class="cb-vid-sm-ply-api">►</div>
+                           </div>
+                        </div>
+                        <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="England have batted well, but the game has not gone away from India: Harsha Bhogle|45409">England have batted well, but the game has not gone away from India: Harsha Bhogle</h4>
+                     </a>
+                     <div class="cb-nws-time">1h ago</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a class="suggested-video-gtm" gtm-label="Kuldeep Yadav omitted again! Harsha Bhogle explains why|45408" href="/cricket-videos/45408/kuldeep-yadav-omitted-again-harsha-bhogle-explains-why" target="_self" title="Kuldeep Yadav omitted again! Harsha Bhogle explains why">
+                        <div class="cb-pos-rel">
+                           <img alt="Kuldeep Yadav omitted again! Harsha Bhogle explains why" class="cb-suggested-vid-img suggested-video-gtm lazy-loading" gtm-label="Kuldeep Yadav omitted again! Harsha Bhogle explains why|45408" height="164" source="/a/img/v1/290x164/i1/c201659/kuldeep-yadav-omitted-again-h.jpg" src="" title="Kuldeep Yadav omitted again! Harsha Bhogle explains why" width="290"/>
+                           <div class="cb-cen">
+                              <div class="cb-vid-sm-ply-api">►</div>
+                           </div>
+                        </div>
+                        <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="Kuldeep Yadav omitted again! Harsha Bhogle explains why|45408">Kuldeep Yadav omitted again! Harsha Bhogle explains why</h4>
+                     </a>
+                     <div class="cb-nws-time">1h ago</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a class="suggested-video-gtm" gtm-label="India vs England: Harsha Bhogle picks Top-5 players to watch out for|45387" href="/cricket-videos/45387/india-vs-england-harsha-bhogle-picks-top-5-players-to-watch-out-for" target="_self" title="India vs England: Harsha Bhogle picks Top-5 players to watch out for">
+                        <div class="cb-pos-rel">
+                           <img alt="India vs England: Harsha Bhogle picks Top-5 players to watch out for" class="cb-suggested-vid-img suggested-video-gtm lazy-loading" gtm-label="India vs England: Harsha Bhogle picks Top-5 players to watch out for|45387" height="164" source="/a/img/v1/290x164/i1/c201481/india-vs-england-harsha-bhogl.jpg" src="" title="India vs England: Harsha Bhogle picks Top-5 players to watch out for" width="290"/>
+                           <div class="cb-vid-duration">5:06</div>
+                           <div class="cb-cen">
+                              <div class="cb-vid-sm-ply-api">►</div>
+                           </div>
+                        </div>
+                        <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="India vs England: Harsha Bhogle picks Top-5 players to watch out for|45387">India vs England: Harsha Bhogle picks Top-5 players to watch out for</h4>
+                     </a>
+                     <div class="cb-nws-time">Jan 30 2021</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-more-btn-cntnr"><a class="cb-more-btn" href="/cricket-videos" role="button" target="_self" title="Click to view more videos">More Videos</a></div>
+               </div>
+               <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                  <div class="ad-unit center-block" id="mpu2"></div>
+               </div>
+               <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                  <h4 class="cb-mdl-hdr">Specials</h4>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115998/joe-root-entertainer-perfectionist-leader-legend" title="Joe Root - Entertainer, perfectionist, leader, legend">
+                        <img alt="Joe Root - Entertainer, perfectionist, leader, legend" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c201491/joe-root-will-become-one-of-on.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">Joe Root - Entertainer, perfectionist, leader, legend</h4>
+                     </a>
+                     <div class="cb-nws-intr">In a series of exclusive interviews with Cricbuzz, those who know Root best share their memories of his career so far</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115979/life-in-a-bubble-the-nida-dar-diary-part-2" title="Life in a bubble: The Nida Dar Diary - Part 2">
+                        <img alt="Life in a bubble: The Nida Dar Diary - Part 2" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c201440/life-in-a-bio-bubble-can-be-lo.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">Life in a bubble: The Nida Dar Diary - Part 2</h4>
+                     </a>
+                     <div class="cb-nws-intr">The Pakistan all-rounder opens up about her journey in South Africa and shares the experience of playing cricket in a bio-bubble through her tell-all diary</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115833/india-tour-of-australia-2020-21-border-gavaskar-trophy-cricket-scg-test-hanuma-vihari-interview" title="'At tea in SCG, support staff told me I owed India a draw'">
+                        <img alt="'At tea in SCG, support staff told me I owed India a draw'" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c201064/hanuma-vihari-got-the-job-done.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">'At tea in SCG, support staff told me I owed India a draw'</h4>
+                     </a>
+                     <div class="cb-nws-intr">In an exclusive interview, SCG hero Hanuma Vihari reflects on India's comeback from the lows of 36 all out, battling injuries in a famous draw and more</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115791/the-summer-of-siraj" title="The summer of Siraj">
+                        <img alt="The summer of Siraj" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c200935/it-was-only-apt-that-he-would.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">The summer of Siraj</h4>
+                     </a>
+                     <div class="cb-nws-intr">In the span of three Tests, Siraj has gone from being a debutant to the leader of the pack, taking on the rushed responsibilities rather convincingly </div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115757/destinys-child-the-washington-sundar-story" title="Destiny's child">
+                        <img alt="Destiny's child" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c200792/shailaja-sundar-with-her-broth.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">Destiny's child</h4>
+                     </a>
+                     <div class="cb-nws-intr">The story of how a shy boy grew up fast and showed he belonged at the Test level</div>
+                  </div>
+                  <div class="cb-col cb-col-100 cb-mid-wrp">
+                     <a href="/cricket-news/115657/mohammed-siraj-the-hero-we-need-to-be-india-cricket-team-say-no-to-racism-scg-sydney" title="Siraj, the hero we need to be">
+                        <img alt="Siraj, the hero we need to be" class="cb-vid-img lazy-loading" height="170" source="/a/img/v1/300x170/i1/c200496/not-once-but-twice-siraj-right.jpg" src="" width="303"/>
+                        <h4 class="text-hvr-underline">Siraj, the hero we need to be</h4>
+                     </a>
+                     <div class="cb-nws-intr">Notes from an SCG incident that is also a valuable life takeaway </div>
+                  </div>
+               </div>
+               <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                  <div class="ad-unit center-block" id="mpu3"></div>
+               </div>
+            </div>
+            <span class="ad-unit" id="skin_right" style="overflow:hidden;position:fixed;top:0;left:calc(50% + 490px);margin-left:3px;z-index:-99;"></span>
+         </div>
+      </div>
+      <div ng-cloak="" ng-if='$root.$GEO.isGeo("EU")'>
+         <div class="feedback-bar text-center cb-col-100 disp-none feedback-menu" id="feedback-bar" ng-controller="FeedbackCtrl" ng-init="show_feedback_menu();"><span class="feedback-txt">We use cookies to improve your experience on our site and to show you non-personalized ads. Find out more in our <a href="/info/privacy" style="color:#4A90E2;">privacy policy</a> and <a href="/info/privacy#cookie_policy" style="color:#4A90E2;">cookie policy</a></span><button class="cb-feedback-btn blue-btn cb-cursor" id="close_feedback_btn" ng-click="close_feedback();">OK</button></div>
+      </div>
+      <footer id="FooterWraper" itemscope="" itemtype="http://schema.org/WPFooter">
+         <div class="cb-footer cb-col-100 cb-col">
+            <div class="cb-ftr-cntnr">
+               <div class="cb-col-25 cb-col">
+                  <a class="center-block" href="/">
+                     <div class="cb-ftr-logo cb-ico"></div>
+                  </a>
+               </div>
+               <div class="cb-col-25 cb-col">
+                  <div class="text-left cb-font-16 text-bold">MOBILE SITE &amp; APPS</div>
+                  <ul class="cb-ftr-ul">
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://m.cricbuzz.com"><span class="cb-mobile-site cb-ico"></span><span class="cb-footer-list-rt">m.cricbuzz.com</span></a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://play.google.com/store/apps/details?id=com.cricbuzz.android" target="_blank"><span class="cb-app-android cb-ico"></span><span class="cb-footer-list-rt">Android</span></a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://itunes.apple.com/app/id360466413" target="_blank"><span class="cb-app-ios cb-ico"></span><span class="cb-footer-list-rt">iOS</span></a></li>
+                  </ul>
+               </div>
+               <div class="cb-col-25 cb-col">
+                  <div class="text-left cb-font-16 text-bold">FOLLOW US ON</div>
+                  <ul class="cb-ftr-ul">
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://www.facebook.com/cricbuzz" target="_blank" title="Facebook"><span class="cb-social-fb cb-ico"></span><span class="cb-footer-list-rt">facebook</span></a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://twitter.com/cricbuzz" target="_blank" title="Twitter"><span class="cb-social-twitter cb-ico"></span><span class="cb-footer-list-rt">twitter</span></a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://www.youtube.com/channel/UCSRQXk5yErn4e14vN76upOw" target="_blank" title="Youtube"><span class="cb-social-ytbe cb-ico"></span><span class="cb-footer-list-rt">youtube</span></a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="https://in.pinterest.com/cricbuzz/" target="_blank" title="Pinterest"><span class="cb-social-pinterest cb-ico"></span><span class="cb-footer-list-rt">Pinterest</span></a></li>
+                  </ul>
+               </div>
+               <div class="cb-col-25 cb-col">
+                  <div class="text-left cb-font-16 text-bold">COMPANY</div>
+                  <ul class="cb-ftr-ul">
+                     <li class="cb-ftr-lst"><a class="text-white" href="/careers" title="Careers">Careers</a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="/info/advertise" title="Advertise">Advertise</a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="/info/privacy" rel="nofollow" title="Privacy Policy">Privacy Policy</a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="/info/termsofuse" rel="nofollow" title="Terms of Use">Terms of Use</a></li>
+                     <li class="cb-ftr-lst"><a class="text-white" href="/product-blog/cricbuzz-mobile-apps-tv-ad-cricket-ka-keeda" title="Cricbuzz TV Ads">Cricbuzz TV Ads</a></li>
+                  </ul>
+               </div>
+               <div class="cb-col-100 cb-col cb-ftr-cpyrght">© 2021 Cricbuzz.com, Times Internet Limited. All rights reserved | <a class="cb-ftr-cpyrght text-hvr-underline" href="http://timesofindia.indiatimes.com/" target="_blank">The Times of India</a> | <a class="cb-ftr-cpyrght text-hvr-underline" href="http://navbharattimes.indiatimes.com/" target="_blank">Navbharat Times</a></div>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript">var script_tag = document.getElementsByTagName('script')[0];	(function() {	var cmin = document.createElement('script'); cmin.type = 'text/javascript'; cmin.async = true;	cmin.src = '/dist/js/cricbuzz.min.1606460309.js';	script_tag.parentNode.insertBefore(cmin, script_tag);	})();</script><script> var firebaseScript = [ 'https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js', 'https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js' ]; var firebaseJS = []; for(var i =0; i < firebaseScript.length; i++) { firebaseJS[i] = document.createElement('script'); firebaseJS[i].type = 'text/javascript'; firebaseJS[i].async = true; firebaseJS[i].src = firebaseScript[i]; var stag = document.getElementsByTagName('script')[0]; stag.parentNode.insertBefore(firebaseJS[i], stag); } function initializeFirebaseJS(){ var firebaseConfig = { apiKey: "AIzaSyCTfMJJ_bLdOnp_OKuxi9ce8vmnzgqUHiM", authDomain: "cricbuzz-desktop.firebaseapp.com", databaseURL: "https://cricbuzz-desktop.firebaseio.com", projectId: "cricbuzz-desktop", storageBucket: "cricbuzz-desktop.appspot.com", messagingSenderId: "820819117977", appId: "1:820819117977:web:eabf3544ac136b1a643508", measurementId: "G-4H06J8XXQH" }; if(typeof(firebase) != undefined) { firebase.initializeApp(firebaseConfig); firebase.analytics(); } else { setTimeout(initializeFirebaseJS, 3000); } } firebaseJS[1].onload = function() { initializeFirebaseJS(); }</script>
+      <noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-PGNCT7" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);	})(window,document,'script','dataLayer','GTM-PGNCT7');</script><script>window.onerror = function(message, file, line) {	var sFormattedMessage = '[' + file + ' (' + line + ')] ' + message;	dataLayer.push({'EventAction': "Application",'EventLabel': sFormattedMessage,'event': 'Exceptions'});	}</script>
+   </body>
+</html>

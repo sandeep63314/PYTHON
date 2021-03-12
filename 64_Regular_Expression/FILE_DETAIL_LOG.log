@@ -1,0 +1,29 @@
+Validation for COREMAP files have started...
+
+EDH_COREMAP_IN_08_12_2021.csv is today's file.
+ORCL_TRANSACTIONMAP_IN_10_12_2021.csv is not today's file.
+
+File ORCL_COREMAP_IN_08_12_2021.csv is not received
+
+
+Validation for COREMAP file has ended...
+
+-----xxx-----
+
+Validation for CORESITE files has started...
+
+EDH_CORESITE_IN_19_08_12_2021.txt is today's file.
+EDH_CORESITE_IN_21_08_12_2021.txt is today's file.
+EDH_CORESITE_IN_22_08_12_2021.txt is today's file.
+Received CORESITE file:EDH_CORESITE_IN_22_08_12_2021.txt with wrong zone code.
+EDH_CORESITE_IN_37_10_12_2021.txt is not today's file.
+ORCL_TRANSACTIONSITE_IN_19_08_12_2021.txt is today's file.
+ORCL_TRANSACTIONSITE_IN_20_08_12_2021.txt is today's file.
+ORCL_TRANSACTIONSITE_IN_21_08_12_2021.txt is today's file.
+ORCL_TRANSACTIONSITE_IN_37_08_12_2021.txt is today's file.
+
+File EDH_CORESITE_IN_37_08_12_2021.txt is not received.
+
+File EDH_CORESITE_IN_20_08_12_2021.txt is not received.
+
+Validation for CORESITE files has ended...
