@@ -12,8 +12,11 @@
 a = 10
 print(type(a))
 
-b= 20.0
+b = 20.0
 print(type(b))
+
+c = 'Python 3.9.2'
+print(type(c))
 
 print(11 // 4) #// removes the decimal part from quotient
 
