@@ -18,6 +18,9 @@ print(type(b))
 c = 'Python 3.9.2'
 print(type(c))
 
+d = ['2021-02-19','2021-02-23','2021-02-24']
+print(type(d))
+
 print(11 // 4) #// removes the decimal part from quotient
 
 print(11 % 4) #% returns the remainder
