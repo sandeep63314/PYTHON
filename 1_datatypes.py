@@ -24,6 +24,9 @@ print(type(d))
 e = ('26-JAN','15-AUG','02-OCT')
 print(type(e))
 
+f = {'fileid':'F100','filename':'STUDENT RECORDS','pages':200}
+print(type(f))
+
 print(11 // 4) #// removes the decimal part from quotient
 
 print(11 % 4) #% returns the remainder
