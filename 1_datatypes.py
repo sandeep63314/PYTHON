@@ -32,8 +32,8 @@ g = {'F100','STUDENT RECORDS',200}
 h = None
 print(type(h))
 
-i = True
-print(type(i))
+i,j = True,False
+print(type(i),type(j))
 
 print(11 // 4) #// removes the decimal part from quotient
 
