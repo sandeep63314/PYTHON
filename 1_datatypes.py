@@ -28,7 +28,9 @@ f = {'fileid':'F100','filename':'STUDENT RECORDS','pages':200}
 print(type(f))
 
 g = {'F100','STUDENT RECORDS',200}
-print(type(g))
+
+h = None
+print(type(h))
 
 print(11 // 4) #// removes the decimal part from quotient
 
