@@ -1,4 +1,4 @@
-# Datatypes
+# Below are the list of datatypes in Python: -
 # 1.int
 # 2.float
 # 3.str
