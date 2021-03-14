@@ -27,13 +27,12 @@ print(type(e))
 f = {'fileid':'F100','filename':'STUDENT RECORDS','pages':200}
 print(type(f))
 
+<<<<<<< HEAD
 g = {'F100','STUDENT RECORDS',200}
-
-h = None
-print(type(h))
-
-i = True
-print(type(i))
+=======
+g = None
+>>>>>>> 75573e8 (Resolving rebase conflict in feature on 14 Mar 2021 12:45:00)
+print(type(g))
 
 print(11 // 4) #// removes the decimal part from quotient
 
