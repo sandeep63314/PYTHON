@@ -1,5 +1,7 @@
 # enumerate function returns index and value of an object in a tuple
-for _lang in enumerate(('C++','C#','Python','Java')):
+languages = ('C++','C#','Python','Java')
+
+for _lang in enumerate(languages):
     print(_lang)
 
 for _idx, _lang in enumerate(('C++','C#','Python','Java')):
