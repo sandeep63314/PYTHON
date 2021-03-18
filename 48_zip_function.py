@@ -8,3 +8,8 @@ phone_number = [9090403020, 9040102030, 986512345, 8917645671, 6371078910, 99378
 # It had zipped each user with their phone numbers. However, user 'Sridev' couldn't be zipped.
 # User 'Sridev' is missing his corresponding phone number from list
 print(list(zip(users, phone_number)))
+#
+# zipval = list(zip(users,phone_number))
+#
+# zipuncompress = [iv[0] for iv in [i for i in zipval]]
+# print(zipuncompress)
