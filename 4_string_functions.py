@@ -24,7 +24,7 @@ print(_replacestring)
 _lines = _addr.split(',', 2)
 print(_lines)
 # Remove substring from start or end of string. I have stripped 'N' from beginning of string
-# Here mention any character that needs to be stripped off from begining and end
+# Here mention any character that needs to be stripped off from beginning and end
 _stripping = _lines[1].strip('N')
 print(_stripping)
 # Index of a given substring in string
