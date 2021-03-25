@@ -44,6 +44,8 @@ print(ticket.values())
 # item() is used to retrieve key value pairs from dictionary
 # key value pairs are collected into tuples
 print(ticket.items())
+for type,vehicle in ticket.items():
+    print(type,vehicle)
 
 # To remove all items from dictionary
 ticket.clear()
