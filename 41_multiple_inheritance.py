@@ -30,7 +30,7 @@ class father(son,daughter):
         self.dad_coins = coins
 
     def total_cash(self):
-        self.dad_cash = self.dad_cash + self.son_cash + self.dau_cash + son.bank_cash
+        self.dad_cash = self.dad_cash + self.son_cash + self.dau_cash + son.bank_cash + daughter.bank_cash
         self.dad_coins = self.dad_coins + self.son_coins + self.dau_coins
 
 
