@@ -4,6 +4,6 @@ languages = ('C++','C#','Python','Java')
 for _lang in enumerate(languages):
     print(_lang)
 
-for _idx, _lang in enumerate(('C++','C#','Python','Java')):
+for _idx, _lang in enumerate(('C++','C#','Python','Java'),1):
     if _lang == 'Python':
-        print(f'Index value of \'Python\' is {_idx}')
+        print(f'Rank of \'Python\' is {_idx}')
