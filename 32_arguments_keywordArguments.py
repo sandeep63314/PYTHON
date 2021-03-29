@@ -1,5 +1,5 @@
-# args(arguments) is a parameter that accepts any number of argument values
-# kwargs(keyword arguments) is a parameter that accepts a dictionary
+# args(arguments) is a parameter that accepts any number of non-keyword argument values
+# kwargs is a parameter that accepts keyword arguments a dictionary
 #params, *args, default arguments, **kwargs
 def stock_price(name,*price,**day_price):# it is a standard convention to use *args, **kwargs as name of argument & keyword arguments
     print(day_price)
