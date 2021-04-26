@@ -1,6 +1,6 @@
 _med = ['Paracetamol', 'Bevon', 'Liv52']
 
-print('\nAdd a element into a list')
+print('\nAdd a new element into a list')
 _med.append('Crocin')
 print(_med)
 
@@ -12,8 +12,7 @@ print(_medkart)
 print(_med)
 
 print('\nList copy without changing contents in original list')
-print(
-    'It will simply copy the contents of a list to a given variable. Change in either variables are not inter dependent')
+print('It will simply copy the contents of a list to a given variable. Change in either variables are not inter dependent')
 _medkart = _med[:]
 _medkart[0] = 'Cetrizin'
 print(_medkart)
@@ -42,6 +41,7 @@ print(_med)
 
 print('\nAlternative approach to reverse a list without changing the index positions inside the list')
 print(_med[::-1])
+print(list(reversed(_med)))
 # Difference between sorted function and sort function.
 print('\nSort function sorts all elements inside a list and changes are reflected for the same list')
 print('\nSorted function returns all elements from a list in sorted order.')
