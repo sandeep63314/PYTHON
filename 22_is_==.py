@@ -10,7 +10,7 @@ a = {10,20}
 b = a # a & b are pointing to same memory location
 b.add(30)
 print(a == b)
-print('-----is------')
+print('-----is-----')
 print(True is 1) # different memory location
 print(10 is 10.0)
 print('1' is 1)
@@ -20,3 +20,18 @@ a = {10,20}
 b = a # a & b are pointing to same memory location
 b.add(30)
 print(a is b)
+
+'''
+the numbers - 5 to 256 are interned in CPython.Each number is stored at a
+singular and fixed place in memory, which saves memory for commonly - used integer.
+'''
+print('-----Working with intern objects-----')
+a = 'hello world'
+b = 'hello world'
+print(a is b) # value 5 is stored in a fixed memory location
+
+# Use id() to compare identity values of any 2 objects
+a = 'hello world'
+b = 'hello world'
+print(id(a))
+print(id(b))
