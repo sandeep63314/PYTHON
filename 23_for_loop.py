@@ -14,6 +14,10 @@ print('\n---Values---\n')
 for _values in _employee.values():
     print(_values)
 
+print('\n---Items(Keys & Values)---\n')
+for _items in _employee.items():
+    print(_items)
+
 print('\n---Iterating through collection---\n')
 _cars = ['Toyota','BMW','Ferrari']
 for _val in _cars:
