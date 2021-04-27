@@ -25,6 +25,10 @@ print(a is b)
 the numbers - 5 to 256 are interned in CPython.Each number is stored at a
 singular and fixed place in memory, which saves memory for commonly - used integer.
 '''
+'''
+is operator returns TRUE for below operands if we execute by script
+But is operator will return FALSE for below operands if we execute it in console
+'''
 print('-----Working with intern objects-----')
 a = 'hello world'
 b = 'hello world'
