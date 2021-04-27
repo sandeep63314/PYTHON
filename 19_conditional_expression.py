@@ -1,4 +1,4 @@
-# Conditional expression : If a given condition is true then a set of statements are executed
+# Conditional expression : If a given condition is true(clause) then a block of statements(suite) are executed
 # else another block of statements gets executed
 _a = False
 _b = True
