@@ -5,6 +5,9 @@ users = ['Sangram', 'Srikant', 'Lipika', 'Rajan', 'Subhashree', 'Bighnaraj','Sri
 
 phone_number = [9090403020, 9040102030, 986512345, 8917645671, 6371078910, 993787654]
 
+for a,b in zip(users,phone_number):
+    print(a,b)
+
 # It had zipped each user with their phone numbers. However, user 'Sridev' couldn't be zipped.
 # User 'Sridev' is missing his corresponding phone number from list
 print(list(zip(users, phone_number)))
