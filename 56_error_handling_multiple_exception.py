@@ -1,3 +1,4 @@
+import sys
 # Exception handling is used to manually handle any type of error.
 # try block : In this block you place only those part of code that is assumed to generate an error
 # except : If a try block generates any error it is handled in except block. Exception can be customised to handle any specific type of exception.
@@ -7,7 +8,8 @@
 try:
     check = int(input('Enter your age:'))
 except (ValueError, ZeroDivisionError) as er:
-    print(f'This age is invalid. Enter a number greater than 0 \n{er}')
+    print(sys.exc_info())
+    print(f'This age is invalid. Enter a number greater than 0 \n{er}');
 
 except TypeError as er:
     print('Enter a integer value\n{er}')
