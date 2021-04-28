@@ -5,16 +5,16 @@ print(f'Local variable of __main__ program is {lives}')
 
 def death_game():
     global lives
-    live = lives
+    live = 5
 
     def over():
         nonlocal live
         live -= 1
         return live
 
-    lives = over()
-    return lives
+    lives -= 1
+    return over(),lives
 
-
-print(f'Value after use of nonlocal variable is {death_game()}')
-print(f'Value of local variable in __main__ program after use of nonlocal variable {lives}')
+a,b = death_game()
+print(f'Value after use of nonlocal variable is {a}')
+print(f'Value of global variable after use of death_game() is {b}')
