@@ -10,7 +10,9 @@ try:
     v = 3.9
 
     if not (isinstance(string,str) and isinstance(v,str)):
-        raise customException('Custom error raised check variable datatype.')
+        raise customException('Custom error raised. Check variable datatype.')
+    else:
+        print('No errors')
 
 except customException as er:
     print(er)
