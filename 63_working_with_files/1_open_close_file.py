@@ -24,9 +24,10 @@ _file = open('crimerecord.csv')
 #seek() is used to take the cursor to a particular index position in a file
 _file.seek(7)
 
-#Once readline() read the current line starting at index 0 in the file it reaches end of the line followed by '\n'
+# It moves the cursor to index value 7 and reads the current line from index value 7
 print(_file.readline())
-#Next time when readline() is called it reads the next line
+# Once readline() is called it reads the current line starting at index 0 in the file till it reaches end of the line followed by '\n'
+# Next time when readline() is called it reads the next line
 print(_file.readline())
 print(_file.readline())
 print(_file.readline())
