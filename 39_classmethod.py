@@ -30,8 +30,8 @@ class billcounter:
 
 
 days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-for ctr, today in enumerate(days):
-    print(ctr + 1, today)
+for ctr, today in enumerate(days,1):
+    print(ctr , today)
 weekday = input('Choose your desired weekday from above:')
 total = input('Enter the total amount:')
 delivery = input('Enter the total distance to be travelled:')
