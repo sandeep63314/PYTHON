@@ -6,16 +6,11 @@ class project:
         self.employeecount = empcount
         self.revenue = revenue
     def project_performance(self):
-        if self.revenue >= 100000:
-            grade = 'A'
-        elif 80000 <= self.revenue < 100000:
-            grade = 'B'
-        elif 50000 <= self.revenue < 80000:
-            grade = 'C'
-        elif 30000 <= self.revenue < 50000:
-            grade = 'D'
-        else:
-            grade = 'E'
+        if self.revenue >= 100000:grade = 'A';
+        elif 80000 <= self.revenue < 100000:grade = 'B';
+        elif 50000 <= self.revenue < 80000:grade = 'C';
+        elif 30000 <= self.revenue < 50000:grade = 'D';
+        else:grade = 'E';
         return grade
 class tcs(project):    
     def __init__(self,name,empcount,revenue,year):
@@ -40,7 +35,7 @@ class tcs(project):
             elif prjs.project_performance() == 'E':
                 print(f'{prjs.projectname} has failed to meet it\'s expectations. Need immediate attention')    
 
-year = input('Enter the current year:')    
+year = input('Enter the current year:')
 cibc = tcs('CIBC',11111,100000,year)
 generalmotors = tcs('GENERAL ELECTRONICS',22222,80000,year)
 print(f'Total revenue of TCS in year:{year} is ${tcs.calculate_total_revenue(cibc.revenue,generalmotors.revenue)}')
