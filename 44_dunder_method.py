@@ -28,5 +28,3 @@ print(emp.__getattribute__('dept'))
 
 delattr = emp.__delattr__('dept')
 print(delattr)
-
-print(emp.__getattribute__('dept'))
