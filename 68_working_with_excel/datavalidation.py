@@ -1,6 +1,6 @@
 import sys
 import openpyxl
-from openpyxl.styles import Font, PatternFill, Color
+from openpyxl.styles import Font, PatternFill
 
 wb = openpyxl.load_workbook(sys.argv[1])
 
