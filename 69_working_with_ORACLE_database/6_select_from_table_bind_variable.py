@@ -4,7 +4,7 @@ try:
     con = cx_Oracle.connect('sangram/sangram@localhost:1521/xe')
 
 except cx_Oracle.DatabaseError as er:
-    print('There is error in the Oracle database:' + str(er))
+    print('There is error in the Oracle database:', er)
 
 else:
     try:
@@ -15,10 +15,10 @@ else:
         print(rows)
 
     except cx_Oracle.DatabaseError as er:
-        print('There is error in the Oracle database:'+str(er))
+        print('There is error in the Oracle database:', er)
 
     except Exception as er:
-        print('Error:'+str(er))
+        print('Error:', er)
 
     finally:
         if cur:
