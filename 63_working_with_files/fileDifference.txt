@@ -1,0 +1,6 @@
+Source:2,Yorkshire Terrier,17-20
+Target:2,Yorkshire Terrier,15-20
+Source:8,Pug,12-15
+Target:8,Labrador Retriever,12-15
+Source:10,Miniature Schnauzer,2-15
+Target:10,Miniature Schnauzer,12-15

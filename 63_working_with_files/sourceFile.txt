@@ -1,0 +1,11 @@
+slno,dogbreedname,lifespan
+1,Chihuahua,15-20
+2,Yorkshire Terrier,17-20
+3,Pomeranian,12-16
+4,Dachshund,12-15
+5,Toy Poodle,12-15
+6,Maltese,12-15
+7,Lhasa Apso,12-15
+8,Pug,12-15
+9,Beagle,12-15
+10,Miniature Schnauzer,2-15
