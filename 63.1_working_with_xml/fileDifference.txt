@@ -1,0 +1,2 @@
+Source:Liechtenstein,1,2008,141100,Germany,N,47.1660° N
+Target:Liechtenstein,1,2008,141100,Germany,N,47.1660 N
