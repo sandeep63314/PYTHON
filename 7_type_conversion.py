@@ -1,5 +1,7 @@
 import datetime
-_curr_year = datetime.date.today()
+
+_curr_year = datetime.datetime.today()
+print(_curr_year)
 _curr_year = _curr_year.strftime('%Y')
 print(_curr_year)
 _birth_year = input('Enter your year of birth:')
