@@ -11,7 +11,7 @@ print(d)
 # to find octal value of a number
 o = oct(200)
 print(o)
-# to fier and it's typend hexadecimal value of a numb
+# to find hexadecimal value of a number
 h = hex(300)
 print(h,type(h))
 # to find integer value of a binary number
