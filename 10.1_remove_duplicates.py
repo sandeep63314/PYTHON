@@ -8,3 +8,11 @@ while ctr < len(usernames) - 1:
     else:
         ctr += 1 # ctr is incremented if successive items are not matching
 print(usernames)
+
+#Alternative way to remove duplicates from a list using Counter
+from collections import Counter
+
+def remove_duplicate(users):
+    userdict = Counter(users)
+    return userdict.keys()
+print(list(remove_duplicate(usernames)))
