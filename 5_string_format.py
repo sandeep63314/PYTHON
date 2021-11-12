@@ -19,3 +19,9 @@ Name:{_newname}
 DateOfBirth:{_newdob}
 City:{_newcity}'''
 print(_details.format(_newname='Sandeep', _newdob='24/12/2003', _newcity='Kolkata'))
+# Using the format function to substitute values in a string
+_details = '''
+Name:{}
+DateOfBirth:{}
+City:{}'''
+print(_details.format('Sandeep', '01/01/2003', 'Kolkata'))
