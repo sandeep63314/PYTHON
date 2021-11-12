@@ -1,7 +1,10 @@
+from cmath import phase
 a = complex(3, 2)
 b = complex(4, 3)
 c = a + b
 print(c)
+# to find phase(radian) of a complex number in cartesian plane
+print(phase(a))
 # to find binary value of a number
 d = bin(100)
 print(d)
