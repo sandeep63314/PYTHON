@@ -1,3 +1,4 @@
+from functools import reduce
 _employee = {
     '_empid' : 1122334455,
     '_name' : 'Sangram Mohanty',
@@ -25,9 +26,10 @@ for _val in _cars:
 
 print('\nSum of price of all grocery items\n')
 _grocery = {'rice':45,'dal':60,'noodles':50}
-_total = 0
-for price in _grocery.values():
-    _total += price
+# _total = 0
+# for price in _grocery.values():
+#     _total += price
+_total = reduce(lambda x,acc : acc + x, _grocery.values(),0)
 print('Total price of all grocery items:',_total)
 
 picture = [
