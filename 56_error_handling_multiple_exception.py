@@ -1,4 +1,5 @@
 import sys
+import re
 # Exception handling is used to manually handle any type of error.
 # try block : In this block you place only those part of code that is assumed to generate an error
 # except : If a try block generates any error it is handled in except block. Exception can be customised to handle any specific type of exception.
@@ -6,10 +7,11 @@ import sys
 # else : If a try block doesn't generates any error then you can mention a specific course of action in else block to perform.
 # finally : In this block the rest part of your code needs to placed that you want to execute after exception handling.
 try:
-    check = int(input('Enter your age:'))
-    if isinstance(check,str):
+    check = input('Enter your age:')
+    age = re.search('\D',check)
+    if age.span() != None:
         raise TypeError('Enter a integer value')
-    if check < 0:
+    if int(check) < 0:
         raise ValueError(f'This age is invalid. Enter a number greater than 0')
 except (ValueError, ZeroDivisionError) as er:
     print(sys.exc_info())
