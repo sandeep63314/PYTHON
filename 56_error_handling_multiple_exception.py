@@ -7,12 +7,15 @@ import sys
 # finally : In this block the rest part of your code needs to placed that you want to execute after exception handling.
 try:
     check = int(input('Enter your age:'))
+    if isinstance(check,str):
+        raise TypeError('Enter a integer value')
+    if check < 0:
+        raise ValueError(f'This age is invalid. Enter a number greater than 0')
 except (ValueError, ZeroDivisionError) as er:
     print(sys.exc_info())
-    print(f'This age is invalid. Enter a number greater than 0 \n{er}');
-
+    print(er)
 except TypeError as er:
-    print('Enter a integer value\n{er}')
+    print(er)
 else:
     print('This age is valid')
 finally:

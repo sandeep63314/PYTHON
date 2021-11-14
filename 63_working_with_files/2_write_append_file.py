@@ -1,4 +1,4 @@
-# read() with mode = 'r' is used to read only the contents of a file based on starting position(_file.seek(0)). Default starting position is 0.
+# read() with mode = 'r' is used to read only the contents of a file based on starting position(_file.seek(0)). Default starting position is 0. It is the default mode to open a file.
 # write() with mode = 'w' is used to create/recreate a file and write contents into it from beginning.
 # write() with mode = 'r+' stands for read and write. It is used to overwrite characters at the beginning of the file with rest characters appended to it.
 # write() with mode = 'a' is used to append characters at the end of a file.

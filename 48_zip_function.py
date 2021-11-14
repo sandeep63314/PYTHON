@@ -1,5 +1,5 @@
 # Zip is used to create a tuple from each item mentioned in iterables
-# It's like zipping each value from all tupless
+# It's like zipping each value from all tuples
 
 users = ['Sangram', 'Srikant', 'Lipika', 'Rajan', 'Subhashree', 'Bighnaraj','Sridev']
 

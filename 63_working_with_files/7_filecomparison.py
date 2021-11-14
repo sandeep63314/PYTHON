@@ -5,6 +5,7 @@ t = []
 source = open('sourceFile.txt','r')
 target = open('targetFile.txt','r')
 diff = (difflib.unified_diff(source.readlines(),target.readlines(),fromfile='source',tofile = 'target'))
+#print(list(diff))
 #sys.stdout.writelines(diff)
 for line in diff:
     if line[:3] == '---':
