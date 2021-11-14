@@ -6,7 +6,7 @@ class son:
         self.son_coins = coins
 
     def total_cash(self):
-        print(f'Total cash with son:Rs {self.cash}/-, Total coins with son:Rs {self.coins}/-')
+        print(f'Total cash with son:Rs {self.son_cash}/-, Total coins with son:Rs {self.son_coins}/-')
 
 
 class daughter:
@@ -17,7 +17,7 @@ class daughter:
         self.dau_coins = coins
 
     def total_cash(self):
-        print(f'Total cash with daughter:Rs {self.cash}/-, Total coins with daughter:Rs {self.coins}/-')
+        print(f'Total cash with daughter:Rs {self.dau_cash}/-, Total coins with daughter:Rs {self.dau_coins}/-')
 
 
 # Avoid name collision while performing inheritance. Attributes from parent class cannot have the same name as attributes from child class
@@ -30,6 +30,8 @@ class father(son,daughter):
         self.dad_coins = coins
 
     def total_cash(self):
+        son.total_cash(self)
+        daughter.total_cash(self)
         self.dad_cash = self.dad_cash + self.son_cash + self.dau_cash + son.bank_cash + daughter.bank_cash
         self.dad_coins = self.dad_coins + self.son_coins + self.dau_coins
 
