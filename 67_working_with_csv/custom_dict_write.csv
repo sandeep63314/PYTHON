@@ -1,4 +1,4 @@
-itemid,itemname,price,discount,quantity_unit
-100,rice,45,,
-101,dal,110,,
-102,soyabean,80,,
+itemid,itemname,price,quantity_unit,discount,totalprice
+100,rice,45,2,5%,85.5
+101,dal,110,3,3%,320.1
+102,soyabean,80,5,7%,372.0
