@@ -8,7 +8,7 @@ try:
 
     id, nm, sal = 10001, 'Rahul', 50000.50
     # Inserting a record into table employee
-    cursor.execute('insert into employee values(10001,\'Rahul\',50000.50)')
+    cursor.execute(f'insert into employee values({id},\'{nm}\',{sal})')
 
     # commit() to make changes reflect in the database
     con.commit()
