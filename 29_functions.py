@@ -1,12 +1,10 @@
 # functions are used to rerun a given set of codes
 # It is used to achieve DRY : Do not Repeat Yourself
 def studentmarks(rollno, stumarks):
-    for id in stumarks.keys():
-        if rollno == id:
-            print(f'Student with roll number: {rollno} has secured {stumarks[rollno]} marks.')
-        else:
-            print(f'Invalid roll number:{rollno}')
-            break
+    if rollno in stumarks.keys():
+        print(f'Student with roll number: {rollno} has secured {stumarks[rollno]} marks.')
+    else:
+        print(f'Invalid roll number:{rollno}')
 
 
 marks = {'1234': 180, '7890': 250, '5678': 500}
