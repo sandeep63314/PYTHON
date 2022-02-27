@@ -1,75 +1,86 @@
-class ubi:
-    _name = 'UBI'
-    _total = 500000
-    _limit = (50 / 100) * _total
+# Golden rule of inheritance ::: Avoid attribute name collision across classes used in inheritance. It causes ambiguous behavior in value initialisation
+class father:
+    def __init__(self,balance,cash,coins):
+        self.balance = balance
+        self.cash = cash
+        self.coins = coins
+    def cash_display(self):        
+        print(f'Father is left with total bank balance amount of Rs{self.balance}/-.')
+        print(f'Father is left with total cash amount of Rs{self.cash}/-.')
+        print(f'Father is left with total coin amount of Rs{self.coins}/-.')
+        print('--------------------------------')
 
-    def __init__(self, _loan):
-        self.loan = _loan
+class son(father):
+# class "son" is inheriting all properties(attributes, methods) of class "father"
+# It can call all properties of class "father" using object instances/class objects outside the class definition and access parent class("father") properties using self keyword inside child class definition("son")
+    ratio = 0.6
+    def __init__(self,balance,cash,coins):
+        # child class need to pass all parameters of parent class in it's __init__ method
+        # After that it needs to call parent class __init__ methods with it's arguments(arguments are taken from child class parameters defined in it's __init__ class)
+        father.__init__(self,balance,cash,coins)
+        
+        self.sbalance = son.ratio * self.balance
+        self.scash = son.ratio * self.cash
+        self.scoins = son.ratio * self.coins
+    def cash_display(self):
+        print(f'Son has total bank balance amount of Rs{self.sbalance}/-.')
+        print(f'Son has total cash amount of Rs{self.scash}/-.')
+        print(f'Son has total coin amount of Rs{self.scoins}/-.')
+        print('--------------------------------')
+        self.balance = (1 - son.ratio) * self.balance
+        self.cash = (1 - son.ratio) * self.cash
+        self.coins = (1 - son.ratio) * self.coins
+        print(f'Father is left with total bank balance amount of Rs{self.balance}/-.')
+        print(f'Father is left with total cash amount of Rs{self.cash}/-.')
+        print(f'Father is left with total coin amount of Rs{self.coins}/-.')
+        print('--------------------------------')
 
-    def loan_eligibility(self):
-        if ((ubi._total - self.loan) < ubi._limit):
-            return False
-        else:
-            ubi._total -= self.loan
-            return ubi._total
+class mother:
+    def __init__(self,balance,cash,coins):
+        self.mbalance = balance
+        self.mcash = cash
+        self.mcoins = coins
+    def cash_display(self):        
+        print(f'Mother is left with total bank balance amount of Rs{self.balance}/-.')
+        print(f'Mother is left with total cash amount of Rs{self.cash}/-.')
+        print(f'Mother is left with total coin amount of Rs{self.coins}/-.')
+        print('--------------------------------')
+    
+class daughter(son,mother):
+    ratio = 0.3
+    def __init__(self,balance,cash,coins,mbalance,mcash,mcoins):
+        # Here __init__ method of both the classes "son" & "mother" are called. Arguments are appropiately taken from child class __init__ method
+        son.__init__(self,balance,cash,coins)
+        mother.__init__(self,mbalance,mcash,mcoins)
+        # Since class "daughter" is inheriting attributes of class "son" it will also inherit attributes of class "father". father --> son(father) --> daughter(son, father)
+        self.dbalance = (daughter.ratio * self.balance) + (daughter.ratio * self.mbalance)
+        self.dcash = (daughter.ratio * self.cash) + (daughter.ratio * self.mcash)
+        self.dcoins = (daughter.ratio * self.coins) + (daughter.ratio * self.mcoins)
+    def cash_display(self):
+        print(f'Daughter has total bank balance amount of Rs{self.dbalance}/-.')
+        print(f'Daughter has total cash amount of Rs{self.dcash}/-.')
+        print(f'Daughter has total coin amount of Rs{self.dcoins}/-.')
+        print('--------------------------------')
+        self.balance = (1 - daughter.ratio - son.ratio) * self.balance
+        self.cash = (1 - daughter.ratio - son.ratio) * self.cash
+        self.coins = (1 - daughter.ratio - son.ratio) * self.coins
+        print(f'Father is left with total bank balance amount of Rs{self.balance}/-.')
+        print(f'Father is left with total cash amount of Rs{self.cash}/-.')
+        print(f'Father is left with total coin amount of Rs{self.coins}/-.')
+        print('--------------------------------')
 
+s = son(20000,1000,500)
+s.cash_display()
 
-# _credit = input('Enter your loan amount:')
-# _cash = ubi(int(_credit))
-# _amount = _cash.loan_eligibility()
-# print(f'Total cash with UBI is Rs {_amount}/-' if _amount else 'UBI cannot offer you loan')
-# #ubi._limit = (50/100) * ubi._total
-# print(ubi._total,ubi._limit)
-#
-# _credit = input('Enter your loan amount:')
-# _cash = ubi(int(_credit))
-# _amount = _cash.loan_eligibility()
-# print(f'Total cash with UBI is Rs {_amount}/-' if _amount else 'UBI cannot offer you loan')
-# #ubi._limit = (50/100) * ubi._total
-# print(ubi._total,ubi._limit)
+d = daughter(20000,1000,500,10000,500,300)
+d.cash_display()
+# :::Inheritance glitch discussion:::
+son.cash_display(d)
+mother.cash_display(d)
 
-class boe:
-    pass
-
-
-# I have passed parent class 'ubi' as parameter inside child class 'rbi'
-# According to inheritance property 'rbi' will now be able to use attributes,functions of 'ubi'
-class rbi(ubi):
-    _reserve = 1500000
-    _limit = (50 / 100) * _reserve
-
-    def __init__(self, _bankloan, _loan):
-        ubi.__init__(self,_loan)
-        self._bankloan = _bankloan
-
-    def total_cash(self):
-        # As discussed above parent class attributes can be called now inside child class
-        ubi._total += self._bankloan
-        return ubi._total
-
-    def loan_eligibility(self):
-        if ((rbi._reserve - self._bankloan) < rbi._limit):
-            return False
-        else:
-            rbi._reserve -= self._bankloan
-            return rbi._reserve
-
-
-_credit = eval(input('Enter loan amount to be taken by UBI:'))
-_userloan = eval(input('Enter loan amount to be taken by UBI customer:'))
-_cash = rbi(_credit,_userloan)
-# Polymorphism : If there is a name collision between parent class attributes, functions and child class attributes, functions then you can create corresponding object instances to call respective attributes, functions.
-_amount = _cash.loan_eligibility()
-# Attributes of parent class can be accessed and called inside child class because child class is inheriting properties of parent class.
-print(f'Total cash with RBI is Rs {_amount}/-' if _amount else f'RBI cannot offer this bank {ubi._name} any loan')
-_bankcash = _cash.total_cash()
-print(f'Total cash with UBI now is Rs {_bankcash}/-')
-_ubibal = ubi(_cash.loan)
-_bankcash = _ubibal.loan_eligibility()
-print(f'Total cash with UBI after loan disbursement is Rs {_bankcash}/-')
-
+# :::check membership of a object instance for any class:::
 # You can pass a tuple containing name of all class to check if a object instance belong to any of those classes
-print(isinstance(_cash, (ubi, rbi)))
-# this will return false because 'rbi' is not inheriting any properties from 'boe'.
-# So, '_cash' object instance cannot call any attributes, functions that belong to 'boe' class
-print(isinstance(_cash, boe))
+print(isinstance(d,(son,father)))
+# Since class "daughter" is inheriting properties of class "son" & "daughter" therefore it is also an instance of class "son" & "daughter"
+print(isinstance(s,daughter))
+# Since class "son" is parent class of "daughter", it is not inheriting from it's class class. Therefore it's object instance cannot be an instance of class "daughter"
