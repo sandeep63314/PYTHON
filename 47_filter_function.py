@@ -22,3 +22,8 @@ def zero_price(ch):
 
 zero_ch = list(filter(zero_price, channels))
 print(zero_ch)
+# ---------------------------------------------------------------
+col = ['A',123,'B']
+def check(val):
+    return isinstance(val,str) == True
+print(list(filter(check,col)))
