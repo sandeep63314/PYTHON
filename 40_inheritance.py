@@ -81,6 +81,6 @@ mother.cash_display(d)
 # :::check membership of a object instance for any class:::
 # You can pass a tuple containing name of all class to check if a object instance belong to any of those classes
 print(isinstance(d,(son,father)))
-# Since class "daughter" is inheriting properties of class "son" & "daughter" therefore it is also an instance of class "son" & "daughter"
+# class "daughter" is inheriting properties of class "son" & "mother". Therefore it is also an instance of class "father" as class "son" isinheriting from class "father"
 print(isinstance(s,daughter))
 # Since class "son" is parent class of "daughter", it is not inheriting from it's class class. Therefore it's object instance cannot be an instance of class "daughter"
