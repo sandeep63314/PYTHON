@@ -13,9 +13,10 @@ def checkage(age):
             if int(age) > 18:
                 print('You are eligible to ride a 2 wheeler')
             else:
-                # It is possible to manually raise an exception. Once you raise a except that needs to be caught and handled.
+                # It is possible to manually raise an exception. Once you raise an exception it needs to be caught and handled.
                 raise Exception('You are not eligible to ride a 2 wheeler')
         except Exception as err:
+            print(err)
             print('You are fined Rs 2000/-')
 
     # check = int(age)
